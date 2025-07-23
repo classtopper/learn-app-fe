@@ -1,0 +1,88 @@
+.quizzes {
+    font-size: 15px;
+    margin: 20px;
+}
+
+.quizzes h2 {
+    color: #333;
+}
+
+.quiz-question {
+    margin-bottom: 20px;
+}
+
+.quiz-question h4 {
+    margin-bottom: 10px;
+}
+
+.quizzes .option-label {
+    display: block;
+    margin: 5px 0;
+}
+
+.quizzes .quiz-question input[type="radio"] {
+    margin-right: 10px;
+}
+
+.quizzes .button-group {
+    margin-top: 43px;
+    margin-bottom: 40px;
+}
+
+.quizzes button {
+    padding: 3px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 16px;
+    margin-right: 15px;
+}
+
+.quizzes button:hover {
+    background-color: #45a049;
+}
+
+.quizzes .clear-button {
+    background-color: #f44336;
+}
+
+.quizzes .clear-button:hover {
+    background-color: #e53935;
+}
+
+.quizzes .quiz-results {
+    margin-top: 30px;
+}
+
+.quizzes .quiz-results h3 {
+    margin-bottom: 15px;
+}
+
+.quizzes .quiz-results p {
+    margin: 5px 0;
+}
+
+.quizzes .correct-answer {
+    color: green;
+    font-weight: bold;
+}
+
+.quizzes .incorrect-answer {
+    color: red;
+    font-weight: bold;
+}
+
+
+.quizzes .back-to-quiz {
+    background-color: #b57900;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 16px;    
+
+}
+
+.quizzes .back-to-quiz:hover {
+    background-color: #005bb5;
+}

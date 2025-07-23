@@ -1,0 +1,10 @@
+#NEXT_PUBLIC_API_URL=http://localhost:5000
+NEXT_PUBLIC_API_URL=https://content.alphatutor.org
+NEXT_PUBLIC_FILE_URL=https://alphatutor.org
+NEXT_PUBLIC_API_USERNAME=backendonly
+NEXT_PUBLIC_API_PASSWORD=backendonly1
+CACHE_EXPIRATION_TIME=86400000 # example value in milliseconds (10 minutes, 600000 ms), 24 hrs (86400000)
+NEXT_PUBLIC_CACHE_MAX_AGE=86400 # Default to 1 day
+NEXT_PUBLIC_CACHE_STALE_REVALIDATE=86400 #Default to 1 day
+NEXT_PUBLIC_IS_API_CALL_NEEDED=true
+NEXT_PUBLIC_IS_NEW_DATE_NEEDED=true

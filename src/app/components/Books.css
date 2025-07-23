@@ -1,0 +1,218 @@
+.books-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.books-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #004080 !important;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.search-input, .category-select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  flex-grow: 1;
+}
+
+.category-select {
+  max-width: 150px;
+}
+
+.books-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+.books-table th,
+.books-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.books-table th {
+  background-color: #f5f8fa;
+  font-weight: 600;
+  color: #333;
+}
+
+.cover-cell {
+  width: 60px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.book-cover {
+  width: 50px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.book-title-only {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #004080;
+  display: inline-block;
+  padding-left: 6px;
+}
+
+.read-btn,
+.download-btn {
+  background-color: #004080;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.read-btn:hover,
+.download-btn:hover {
+  background-color: #00264d;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.pagination button {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  margin: 0 3px;
+  padding: 7px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #cce4ff;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination .active {
+  background-color: #004080;
+  color: white;
+}
+
+/* Mobile scaling only: keep desktop layout but smaller */
+@media (max-width: 768px) {
+  .books-container {
+    padding: 10px;
+  }
+
+  .books-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .filters {
+    gap: 6px;
+  }
+
+  .search-input, .category-select {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .books-table th,
+  .books-table td {
+    padding: 6px 8px;
+    font-size: 14px;
+  }
+
+  .cover-cell {
+    width: 50px;
+  }
+
+  .book-cover {
+    width: 40px;
+    height: 60px;
+  }
+
+  .book-title-only {
+    font-size: 0.85rem;
+  }
+
+  .read-btn,
+  .download-btn {
+    padding: 5px 8px;
+    font-size: 14px;
+  }
+
+  .pagination button {
+    padding: 5px 8px;
+    font-size: 14px;
+    margin: 0 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further scale down for very small phones */
+  .books-container {
+    padding: 8px;
+  }
+
+  .books-container h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .search-input, .category-select {
+    font-size: 13px;
+    padding: 5px 8px;
+  }
+
+  .books-table th,
+  .books-table td {
+    padding: 5px 6px;
+    font-size: 13px;
+  }
+
+  .cover-cell {
+    width: 40px;
+  }
+
+  .book-cover {
+    width: 35px;
+    height: 52px;
+  }
+
+  .book-title-only {
+    font-size: 0.8rem;
+  }
+
+  .read-btn,
+  .download-btn {
+    padding: 4px 7px;
+    font-size: 13px;
+  }
+
+  .pagination button {
+    padding: 4px 7px;
+    font-size: 13px;
+    margin: 0 1px;
+  }
+}

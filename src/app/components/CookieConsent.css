@@ -1,0 +1,212 @@
+/* src/app/components/CookieConsent.css */
+ 
+.cookie-consent-banner {
+  position: fixed;
+  bottom: 15px;
+  left: 10px;
+  right: 10px;
+  background-color: #d3e6f8;  
+  color: #000000; 
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  font-size: 14px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.cookie-consent-banner-non-eea {
+  bottom: 0px;
+  padding: 10px;
+}
+
+ 
+.cookie-consent-banner h3 {
+  font-size: 1.5em;  
+  color: #000000; 
+  margin-bottom: 10px; 
+}
+
+.cookie-consent-banner p {
+  font-size: 1em; 
+  color: #666666;  
+  margin: 0 0 15px;  
+}
+ 
+.cookie-consent-options {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 500px;  
+  margin-bottom: 15px; 
+}
+
+.cookie-consent-options label {
+  color: #000000;  
+  padding-right: 10px;
+  font-size: 13px;
+}
+ 
+.cookie-consent-buttons {
+  display: flex;
+  justify-content: center; 
+  gap: 15px;  
+}
+
+.cookie-consent-buttons button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;  
+  cursor: pointer;
+  font-size: 0.9em;
+  width: 120px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#btn-accept-all {
+  background-color: #0095e5;  
+  color: white;
+}
+
+#btn-accept-all:hover {
+  background-color:  #0095e5;  
+}
+
+#btn-cookie-setting {
+  background-color:  #0095e5;  
+  color: white;
+}
+
+#btn-cookie-setting:hover {
+  background-color:  #0095e5;  
+}
+
+#btn-accept-some {
+  background-color: #0095e5;  
+  color: #000000;
+}
+
+#btn-accept-some:hover {
+  background-color: #0095e5;    
+}
+
+#btn-reject-all {
+  background-color: #0b0b0b; 
+  color: white;
+}
+
+#btn-reject-all:hover {
+  background-color: #0b0b0b; 
+}
+
+.cookie-consent-banner .close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.cookie-consent-inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cookie-consent-inline p {
+  margin-right: 2em;
+  color: #000;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.popup-content {
+  background: #d3e6f8; 
+  padding: 30px;
+  border-radius: 1px;
+  width: 80%;
+  max-width: 600px;
+  font-size: 14px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.popup-content h2 {
+  font-size: 1.2em;
+  color: #000;
+  padding-bottom: 10px;
+}
+
+.popup-content p {
+  font-size: 12px; 
+  padding-bottom: 10px;
+ 
+}
+.popup-content .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.cookie-consent-banner a {
+  color: #000000;
+  text-decoration: underline; 
+}
+
+.banner-close {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  background-color: green; 
+  border: none;
+  font-size: 12px; 
+  cursor: pointer; 
+  color: white;
+}
+
+@media (max-width: 768px) {
+
+  .cookie-consent-banner {
+    bottom: 5px;
+    padding: 20px;
+  }
+  .cookie-consent-buttons button {
+    width: 50px;
+    padding: 0;
+    font-size: 0.8em;
+  }
+
+  .cookie-consent-inline p {
+    margin-right: 2em;
+    color: #000;
+    font-size: 12px;
+  }
+
+  .cookie-consent-options label {
+    font-size: 10px;
+  }
+   
+}

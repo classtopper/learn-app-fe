@@ -1,0 +1,130 @@
+/* src/components/HomeBoxGrid.css */
+.home-box-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    padding: 150px;
+}
+
+.home-box {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-box:hover {
+    background-color: #141414;
+    transform: scale(1.05);
+}
+
+
+.home-box-color-1 {
+    background-color: #f8b400;
+}
+
+.home-box-color-2 {
+    background-color: #f85f73;
+}
+
+.home-box-color-3 {
+    background-color: #4a90e2;
+}
+
+.home-box-color-4 {
+    background-color: #7ed321;
+}
+
+.home-box-color-5 {
+    background-color: #d32121;
+}
+
+.home-box-color-6 {
+    background-color: #d3cd21;
+}
+
+.home-box-color-7 {
+    background-color: #bab523;
+}
+
+.home-box-color-8 {
+    background-color: #3021d3;
+}
+
+.home-box-color-9 {
+    background-color: #21d0d3;
+}
+
+.home-box-color-10 {
+    background-color: #21d392;
+}
+
+.home-box-color-11{
+    background-color: #4a2f9b;
+}
+.home-box-color-12 {
+    background-color: #0e553b;
+}
+.home-box-color-13 {
+    background-color: #8d6b76;
+}
+.home-box-color-14 {
+    background-color: #ad4119;
+}
+.home-box-color-15 {
+    background-color: #05472f;
+}
+.home-box-color-16 {
+    background-color: #d32174;
+}
+.home-box-color-17 {
+    background-color: #d33c21;
+}
+.home-box-color-18 {
+    background-color: #d32198;
+}
+.home-box-color-19 {
+    background-color: #d3a921;
+}
+.home-box-color-20 {
+    background-color: #b08c17;
+}
+
+.home-box-color-21 {
+    background-color: #259599;
+}
+
+.home-box-color-22 {
+    background-color: #17b059;
+}
+
+.home-box-color-23 {
+    background-color: #1736b0;
+}
+
+.home-box-color-24 {
+    background-color: #b08c17;
+}
+
+.home-box-color-25 {
+    background-color: #e9d8a0;
+}
+
+
+
+@media (max-width: 600px) {
+    .home-box-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 55px;
+    }
+}

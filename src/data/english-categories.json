@@ -1,0 +1,2852 @@
+[
+  {
+    "title": "🗣️ Greetings & Basics",
+    "words": [
+      ["Hello", "Used to greet someone"],
+      ["Goodbye", "Used to say farewell"],
+      ["Please", "Used in polite requests"],
+      ["Thank you", "Expression of gratitude"],
+      ["Yes", "Affirmative response"],
+      ["No", "Negative response"],
+      ["Excuse me", "Used to politely interrupt or apologize"],
+      ["Sorry", "Expression of regret"],
+      ["Welcome", "A friendly reception"],
+      ["Hi", "Informal greeting"]
+    ]
+  },
+  {
+    "title": "❓ Questions",
+    "words": [
+      ["What?", "Asking for repetition or explanation"],
+      ["Why?", "Asking for reason"],
+      ["Who?", "Asking about a person"],
+      ["Where?", "Asking about location"],
+      ["When?", "Asking about time"],
+      ["How?", "Asking about manner"],
+      ["Which?", "Asking about choice"],
+      ["Whose?", "Asking about possession"],
+      ["How much?", "Asking about quantity"],
+      ["How many?", "Asking about number"]
+    ]
+  },
+  {
+    "title": "🧠 Verbs",
+    "words": [
+      ["Understand", "To grasp meaning"],
+      ["Know", "To have knowledge"],
+      ["Think", "To consider or reason"],
+      ["Learn", "To gain knowledge"],
+      ["See", "To perceive with eyes"],
+      ["Hear", "To perceive with ears"],
+      ["Speak", "To talk"],
+      ["Write", "To form letters or words"],
+      ["Read", "To interpret written language"],
+      ["Listen", "To pay attention to sound"]
+    ]
+  },
+  {
+    "title": "📚 Common Nouns",
+    "words": [
+      ["Man", "Adult male human"],
+      ["Woman", "Adult female human"],
+      ["Child", "Young person"],
+      ["House", "Place to live"],
+      ["Car", "Vehicle"],
+      ["Dog", "Domesticated animal"],
+      ["Cat", "Small domesticated feline"],
+      ["Street", "Public road"],
+      ["Table", "Flat surface with legs"],
+      ["Chair", "Seat with back support"]
+    ]
+  },
+  {
+    "title": "🎨 Adjectives",
+    "words": [
+      ["Good", "Of high quality"],
+      ["Bad", "Of low quality"],
+      ["Big", "Large in size"],
+      ["Small", "Little in size"],
+      ["Beautiful", "Pleasing in appearance"],
+      ["Ugly", "Unpleasant in appearance"],
+      ["Old", "Not new"],
+      ["Young", "At early stage of life"],
+      ["New", "Recently made"],
+      ["Cold", "Low temperature"]
+    ]
+  },
+  {
+    "title": "🔢 Numbers",
+    "words": [
+      ["One", "1"],
+      ["Two", "2"],
+      ["Three", "3"],
+      ["Four", "4"],
+      ["Five", "5"],
+      ["Six", "6"],
+      ["Seven", "7"],
+      ["Eight", "8"],
+      ["Nine", "9"],
+      ["Ten", "10"]
+    ]
+  },
+  {
+    "title": "🕰️ Time & Days",
+    "words": [
+      ["Today", "Current day"],
+      ["Tomorrow", "Next day"],
+      ["Yesterday", "Previous day"],
+      ["Morning", "Early part of the day"],
+      ["Afternoon", "Time after noon"],
+      ["Evening", "Late part of day"],
+      ["Night", "Period of darkness"],
+      ["Monday", "First day of week"],
+      ["Friday", "Day before weekend"],
+      ["Sunday", "Weekend day"]
+    ]
+  },
+  {
+    "title": "🙋 Pronouns",
+    "words": [
+      ["I", "First person singular"],
+      ["You", "Second person singular/plural"],
+      ["He", "Third person male"],
+      ["She", "Third person female"],
+      ["It", "Third person neutral"],
+      ["We", "First person plural"],
+      ["They", "Third person plural"],
+      ["Me", "Object form of 'I'"],
+      ["Us", "Object form of 'We'"],
+      ["Them", "Object form of 'They'"]
+    ]
+  },
+  {
+    "title": "💬 Expressions",
+    "words": [
+      ["Nice to meet you", "Polite greeting"],
+      ["See you later", "Farewell expression"],
+      ["Good morning", "Morning greeting"],
+      ["Good night", "Night farewell"],
+      ["How are you?", "Asking about well-being"],
+      ["I’m fine", "Responding to how are you"],
+      ["Take care", "Expression of concern"],
+      ["What’s your name?", "Asking for name"],
+      ["My name is...", "Giving your name"],
+      ["I don’t understand", "Lack of comprehension"]
+    ]
+  },
+  {
+    "title": "🏠 Places",
+    "words": [
+      ["School", "Place to study"],
+      ["Market", "Place to buy goods"],
+      ["Hospital", "Place for medical care"],
+      ["Station", "Place for transport"],
+      ["Hotel", "Place to stay"],
+      ["City", "Large town"],
+      ["Village", "Small community"],
+      ["Park", "Public outdoor space"],
+      ["Restaurant", "Place to eat"],
+      ["Church", "Place of worship"]
+    ]
+  },
+  {
+    "title": "🛒 Shopping & Money",
+    "words": [
+      [
+        "Buy",
+        "To purchase something"
+      ],
+      [
+        "Sell",
+        "To exchange for money"
+      ],
+      [
+        "Price",
+        "Cost of an item"
+      ],
+      [
+        "Cheap",
+        "Low in price"
+      ],
+      [
+        "Expensive",
+        "High in price"
+      ],
+      [
+        "Market",
+        "Place to shop"
+      ],
+      [
+        "Money",
+        "Medium of exchange"
+      ],
+      [
+        "Cash",
+        "Physical money"
+      ],
+      [
+        "Card",
+        "Plastic payment method"
+      ],
+      [
+        "Discount",
+        "Price reduction"
+      ]
+    ]
+  },
+  {
+    "title": "🚗 Transportation",
+    "words": [
+      [
+        "Bus",
+        "Large vehicle for public transport"
+      ],
+      [
+        "Train",
+        "Rail vehicle for transport"
+      ],
+      [
+        "Plane",
+        "Aircraft for travel"
+      ],
+      [
+        "Ticket",
+        "Pass to enter/board"
+      ],
+      [
+        "Driver",
+        "Person operating vehicle"
+      ],
+      [
+        "Passenger",
+        "Person being transported"
+      ],
+      [
+        "Travel",
+        "To go from place to place"
+      ],
+      [
+        "Road",
+        "Path for vehicles"
+      ],
+      [
+        "Airport",
+        "Place for air travel"
+      ],
+      [
+        "Taxi",
+        "Hired car with driver"
+      ]
+    ]
+  },
+  {
+    "title": "🍽️ Food & Drinks",
+    "words": [
+      [
+        "Bread",
+        "Baked food"
+      ],
+      [
+        "Water",
+        "Essential drink"
+      ],
+      [
+        "Milk",
+        "White dairy drink"
+      ],
+      [
+        "Tea",
+        "Hot drink from leaves"
+      ],
+      [
+        "Coffee",
+        "Caffeinated drink"
+      ],
+      [
+        "Rice",
+        "Staple grain"
+      ],
+      [
+        "Fruit",
+        "Sweet plant food"
+      ],
+      [
+        "Vegetable",
+        "Plant used as food"
+      ],
+      [
+        "Meat",
+        "Animal flesh for food"
+      ],
+      [
+        "Sugar",
+        "Sweet substance"
+      ]
+    ]
+  },
+  {
+    "title": "🧍 People & Relationships",
+    "words": [
+      [
+        "Friend",
+        "Person you like"
+      ],
+      [
+        "Family",
+        "Group of related people"
+      ],
+      [
+        "Mother",
+        "Female parent"
+      ],
+      [
+        "Father",
+        "Male parent"
+      ],
+      [
+        "Brother",
+        "Male sibling"
+      ],
+      [
+        "Sister",
+        "Female sibling"
+      ],
+      [
+        "Husband",
+        "Married man"
+      ],
+      [
+        "Wife",
+        "Married woman"
+      ],
+      [
+        "Child",
+        "Young person"
+      ],
+      [
+        "Neighbor",
+        "Person who lives nearby"
+      ]
+    ]
+  },
+  {
+    "title": "❤️ Feelings & Emotions",
+    "words": [
+      [
+        "Happy",
+        "Feeling good"
+      ],
+      [
+        "Sad",
+        "Feeling down"
+      ],
+      [
+        "Angry",
+        "Feeling mad"
+      ],
+      [
+        "Afraid",
+        "Feeling scared"
+      ],
+      [
+        "Excited",
+        "Feeling thrilled"
+      ],
+      [
+        "Tired",
+        "Feeling sleepy"
+      ],
+      [
+        "Bored",
+        "Not interested"
+      ],
+      [
+        "Nervous",
+        "Anxious feeling"
+      ],
+      [
+        "Confused",
+        "Not understanding"
+      ],
+      [
+        "Proud",
+        "Feeling satisfied"
+      ]
+    ]
+  },
+  {
+    "title": "🧼 Health & Hygiene",
+    "words": [
+      [
+        "Clean",
+        "Without dirt"
+      ],
+      [
+        "Dirty",
+        "Not clean"
+      ],
+      [
+        "Sick",
+        "Not healthy"
+      ],
+      [
+        "Doctor",
+        "Health professional"
+      ],
+      [
+        "Medicine",
+        "Used to treat illness"
+      ],
+      [
+        "Toothbrush",
+        "Cleans teeth"
+      ],
+      [
+        "Soap",
+        "Used for washing"
+      ],
+      [
+        "Bath",
+        "Washing body"
+      ],
+      [
+        "Shower",
+        "Standing wash"
+      ],
+      [
+        "Towel",
+        "Used to dry"
+      ]
+    ]
+  },
+  {
+    "title": "🧳 Travel & Directions",
+    "words": [
+      [
+        "Left",
+        "Opposite of right"
+      ],
+      [
+        "Right",
+        "Opposite of left"
+      ],
+      [
+        "Straight",
+        "Without turns"
+      ],
+      [
+        "Turn",
+        "Change direction"
+      ],
+      [
+        "Map",
+        "Guide to places"
+      ],
+      [
+        "Near",
+        "Close by"
+      ],
+      [
+        "Far",
+        "Not near"
+      ],
+      [
+        "Go",
+        "Move to place"
+      ],
+      [
+        "Come",
+        "Move towards speaker"
+      ],
+      [
+        "Stop",
+        "Cease movement"
+      ]
+    ]
+  },
+  {
+    "title": "🏡 Home & Furniture",
+    "words": [
+      [
+        "Bed",
+        "Used for sleeping"
+      ],
+      [
+        "Sofa",
+        "Comfortable seating"
+      ],
+      [
+        "Lamp",
+        "Gives light"
+      ],
+      [
+        "Mirror",
+        "Reflects image"
+      ],
+      [
+        "Door",
+        "Entry to room"
+      ],
+      [
+        "Window",
+        "Glass opening"
+      ],
+      [
+        "Kitchen",
+        "Room for cooking"
+      ],
+      [
+        "Bathroom",
+        "Room for bathing"
+      ],
+      [
+        "Closet",
+        "Storage for clothes"
+      ],
+      [
+        "Curtain",
+        "Window cover"
+      ]
+    ]
+  },
+  {
+    "title": "🖍️ Colors & Shapes",
+    "words": [
+      [
+        "Red",
+        "Color of fire"
+      ],
+      [
+        "Blue",
+        "Color of sky"
+      ],
+      [
+        "Green",
+        "Color of grass"
+      ],
+      [
+        "Yellow",
+        "Color of sun"
+      ],
+      [
+        "Black",
+        "Darkest color"
+      ],
+      [
+        "White",
+        "Lightest color"
+      ],
+      [
+        "Circle",
+        "Round shape"
+      ],
+      [
+        "Square",
+        "4 equal sides"
+      ],
+      [
+        "Triangle",
+        "3-sided shape"
+      ],
+      [
+        "Rectangle",
+        "4 sides, opposite equal"
+      ]
+    ]
+  },
+  {
+    "title": "🌦️ Weather & Seasons",
+    "words": [
+      [
+        "Rain",
+        "Water from sky"
+      ],
+      [
+        "Sun",
+        "Gives light & heat"
+      ],
+      [
+        "Snow",
+        "Frozen water flakes"
+      ],
+      [
+        "Wind",
+        "Moving air"
+      ],
+      [
+        "Cloud",
+        "White/gray sky form"
+      ],
+      [
+        "Storm",
+        "Bad weather"
+      ],
+      [
+        "Summer",
+        "Hot season"
+      ],
+      [
+        "Winter",
+        "Cold season"
+      ],
+      [
+        "Spring",
+        "Season of growth"
+      ],
+      [
+        "Autumn",
+        "Leaves fall season"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\uded2 Shopping & Money",
+    "words": [
+      [
+        "Buy",
+        "To purchase something"
+      ],
+      [
+        "Sell",
+        "To exchange for money"
+      ],
+      [
+        "Price",
+        "Cost of an item"
+      ],
+      [
+        "Cheap",
+        "Low in price"
+      ],
+      [
+        "Expensive",
+        "High in price"
+      ],
+      [
+        "Market",
+        "Place to shop"
+      ],
+      [
+        "Money",
+        "Medium of exchange"
+      ],
+      [
+        "Cash",
+        "Physical money"
+      ],
+      [
+        "Card",
+        "Plastic payment method"
+      ],
+      [
+        "Discount",
+        "Price reduction"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\ude97 Transportation",
+    "words": [
+      [
+        "Bus",
+        "Large vehicle for public transport"
+      ],
+      [
+        "Train",
+        "Rail vehicle for transport"
+      ],
+      [
+        "Plane",
+        "Aircraft for travel"
+      ],
+      [
+        "Ticket",
+        "Pass to enter/board"
+      ],
+      [
+        "Driver",
+        "Person operating vehicle"
+      ],
+      [
+        "Passenger",
+        "Person being transported"
+      ],
+      [
+        "Travel",
+        "To go from place to place"
+      ],
+      [
+        "Road",
+        "Path for vehicles"
+      ],
+      [
+        "Airport",
+        "Place for air travel"
+      ],
+      [
+        "Taxi",
+        "Hired car with driver"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf7d\ufe0f Food & Drinks",
+    "words": [
+      [
+        "Bread",
+        "Baked food"
+      ],
+      [
+        "Water",
+        "Essential drink"
+      ],
+      [
+        "Milk",
+        "White dairy drink"
+      ],
+      [
+        "Tea",
+        "Hot drink from leaves"
+      ],
+      [
+        "Coffee",
+        "Caffeinated drink"
+      ],
+      [
+        "Rice",
+        "Staple grain"
+      ],
+      [
+        "Fruit",
+        "Sweet plant food"
+      ],
+      [
+        "Vegetable",
+        "Plant used as food"
+      ],
+      [
+        "Meat",
+        "Animal flesh for food"
+      ],
+      [
+        "Sugar",
+        "Sweet substance"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83e\uddcd People & Relationships",
+    "words": [
+      [
+        "Friend",
+        "Person you like"
+      ],
+      [
+        "Family",
+        "Group of related people"
+      ],
+      [
+        "Mother",
+        "Female parent"
+      ],
+      [
+        "Father",
+        "Male parent"
+      ],
+      [
+        "Brother",
+        "Male sibling"
+      ],
+      [
+        "Sister",
+        "Female sibling"
+      ],
+      [
+        "Husband",
+        "Married man"
+      ],
+      [
+        "Wife",
+        "Married woman"
+      ],
+      [
+        "Child",
+        "Young person"
+      ],
+      [
+        "Neighbor",
+        "Person who lives nearby"
+      ]
+    ]
+  },
+  {
+    "title": "\u2764\ufe0f Feelings & Emotions",
+    "words": [
+      [
+        "Happy",
+        "Feeling good"
+      ],
+      [
+        "Sad",
+        "Feeling down"
+      ],
+      [
+        "Angry",
+        "Feeling mad"
+      ],
+      [
+        "Afraid",
+        "Feeling scared"
+      ],
+      [
+        "Excited",
+        "Feeling thrilled"
+      ],
+      [
+        "Tired",
+        "Feeling sleepy"
+      ],
+      [
+        "Bored",
+        "Not interested"
+      ],
+      [
+        "Nervous",
+        "Anxious feeling"
+      ],
+      [
+        "Confused",
+        "Not understanding"
+      ],
+      [
+        "Proud",
+        "Feeling satisfied"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83e\uddfc Health & Hygiene",
+    "words": [
+      [
+        "Clean",
+        "Without dirt"
+      ],
+      [
+        "Dirty",
+        "Not clean"
+      ],
+      [
+        "Sick",
+        "Not healthy"
+      ],
+      [
+        "Doctor",
+        "Health professional"
+      ],
+      [
+        "Medicine",
+        "Used to treat illness"
+      ],
+      [
+        "Toothbrush",
+        "Cleans teeth"
+      ],
+      [
+        "Soap",
+        "Used for washing"
+      ],
+      [
+        "Bath",
+        "Washing body"
+      ],
+      [
+        "Shower",
+        "Standing wash"
+      ],
+      [
+        "Towel",
+        "Used to dry"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83e\uddf3 Travel & Directions",
+    "words": [
+      [
+        "Left",
+        "Opposite of right"
+      ],
+      [
+        "Right",
+        "Opposite of left"
+      ],
+      [
+        "Straight",
+        "Without turns"
+      ],
+      [
+        "Turn",
+        "Change direction"
+      ],
+      [
+        "Map",
+        "Guide to places"
+      ],
+      [
+        "Near",
+        "Close by"
+      ],
+      [
+        "Far",
+        "Not near"
+      ],
+      [
+        "Go",
+        "Move to place"
+      ],
+      [
+        "Come",
+        "Move towards speaker"
+      ],
+      [
+        "Stop",
+        "Cease movement"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udfe1 Home & Furniture",
+    "words": [
+      [
+        "Bed",
+        "Used for sleeping"
+      ],
+      [
+        "Sofa",
+        "Comfortable seating"
+      ],
+      [
+        "Lamp",
+        "Gives light"
+      ],
+      [
+        "Mirror",
+        "Reflects image"
+      ],
+      [
+        "Door",
+        "Entry to room"
+      ],
+      [
+        "Window",
+        "Glass opening"
+      ],
+      [
+        "Kitchen",
+        "Room for cooking"
+      ],
+      [
+        "Bathroom",
+        "Room for bathing"
+      ],
+      [
+        "Closet",
+        "Storage for clothes"
+      ],
+      [
+        "Curtain",
+        "Window cover"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\udd8d\ufe0f Colors & Shapes",
+    "words": [
+      [
+        "Red",
+        "Color of fire"
+      ],
+      [
+        "Blue",
+        "Color of sky"
+      ],
+      [
+        "Green",
+        "Color of grass"
+      ],
+      [
+        "Yellow",
+        "Color of sun"
+      ],
+      [
+        "Black",
+        "Darkest color"
+      ],
+      [
+        "White",
+        "Lightest color"
+      ],
+      [
+        "Circle",
+        "Round shape"
+      ],
+      [
+        "Square",
+        "4 equal sides"
+      ],
+      [
+        "Triangle",
+        "3-sided shape"
+      ],
+      [
+        "Rectangle",
+        "4 sides, opposite equal"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf26\ufe0f Weather & Seasons",
+    "words": [
+      [
+        "Rain",
+        "Water from sky"
+      ],
+      [
+        "Sun",
+        "Gives light & heat"
+      ],
+      [
+        "Snow",
+        "Frozen water flakes"
+      ],
+      [
+        "Wind",
+        "Moving air"
+      ],
+      [
+        "Cloud",
+        "White/gray sky form"
+      ],
+      [
+        "Storm",
+        "Bad weather"
+      ],
+      [
+        "Summer",
+        "Hot season"
+      ],
+      [
+        "Winter",
+        "Cold season"
+      ],
+      [
+        "Spring",
+        "Season of growth"
+      ],
+      [
+        "Autumn",
+        "Leaves fall season"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf0d Nature & Environment",
+    "words": [
+      [
+        "Tree",
+        "Tall plant with a trunk"
+      ],
+      [
+        "River",
+        "Large natural stream of water"
+      ],
+      [
+        "Mountain",
+        "High landform"
+      ],
+      [
+        "Rain",
+        "Water falling from clouds"
+      ],
+      [
+        "Sun",
+        "Star at the center of the solar system"
+      ],
+      [
+        "Moon",
+        "Earth's natural satellite"
+      ],
+      [
+        "Wind",
+        "Moving air"
+      ],
+      [
+        "Ocean",
+        "Large body of salt water"
+      ],
+      [
+        "Forest",
+        "Large area with many trees"
+      ],
+      [
+        "Flower",
+        "Colorful part of a plant"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf7d\ufe0f Food & Drink",
+    "words": [
+      [
+        "Apple",
+        "Red or green fruit"
+      ],
+      [
+        "Bread",
+        "Baked food made from flour"
+      ],
+      [
+        "Milk",
+        "White liquid from cows"
+      ],
+      [
+        "Water",
+        "Essential liquid for life"
+      ],
+      [
+        "Rice",
+        "Staple grain food"
+      ],
+      [
+        "Chicken",
+        "Common poultry meat"
+      ],
+      [
+        "Fish",
+        "Aquatic animal used as food"
+      ],
+      [
+        "Egg",
+        "Oval product from a bird"
+      ],
+      [
+        "Soup",
+        "Liquid food"
+      ],
+      [
+        "Juice",
+        "Drink from fruits or vegetables"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\udc55 Clothing",
+    "words": [
+      [
+        "Shirt",
+        "Upper body garment"
+      ],
+      [
+        "Pants",
+        "Lower body garment"
+      ],
+      [
+        "Shoes",
+        "Footwear"
+      ],
+      [
+        "Hat",
+        "Headwear"
+      ],
+      [
+        "Dress",
+        "One-piece clothing"
+      ],
+      [
+        "Socks",
+        "Foot coverings"
+      ],
+      [
+        "Coat",
+        "Outerwear"
+      ],
+      [
+        "Skirt",
+        "Lower garment for women"
+      ],
+      [
+        "Gloves",
+        "Hand coverings"
+      ],
+      [
+        "Scarf",
+        "Neckwear for warmth"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83e\uddcd Actions",
+    "words": [
+      [
+        "Run",
+        "Move quickly on foot"
+      ],
+      [
+        "Walk",
+        "Move at a normal pace"
+      ],
+      [
+        "Jump",
+        "Push off the ground"
+      ],
+      [
+        "Sit",
+        "Rest on buttocks"
+      ],
+      [
+        "Stand",
+        "Be upright"
+      ],
+      [
+        "Sleep",
+        "Rest at night"
+      ],
+      [
+        "Eat",
+        "Consume food"
+      ],
+      [
+        "Drink",
+        "Consume liquid"
+      ],
+      [
+        "Laugh",
+        "Express happiness"
+      ],
+      [
+        "Cry",
+        "Tears from eyes"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83e\uddf0 Tools & Objects",
+    "words": [
+      [
+        "Hammer",
+        "Tool for pounding"
+      ],
+      [
+        "Nail",
+        "Sharp metal pin"
+      ],
+      [
+        "Screwdriver",
+        "Tool to turn screws"
+      ],
+      [
+        "Wrench",
+        "Tool for gripping"
+      ],
+      [
+        "Knife",
+        "Cutting tool"
+      ],
+      [
+        "Fork",
+        "Eating utensil"
+      ],
+      [
+        "Spoon",
+        "Scooping utensil"
+      ],
+      [
+        "Box",
+        "Container"
+      ],
+      [
+        "Bag",
+        "Portable container"
+      ],
+      [
+        "Pen",
+        "Writing instrument"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\udcf1 Technology",
+    "words": [
+      [
+        "Phone",
+        "Communication device"
+      ],
+      [
+        "Computer",
+        "Electronic computing device"
+      ],
+      [
+        "Tablet",
+        "Portable touchscreen device"
+      ],
+      [
+        "Keyboard",
+        "Typing input device"
+      ],
+      [
+        "Mouse",
+        "Pointing device"
+      ],
+      [
+        "Screen",
+        "Display panel"
+      ],
+      [
+        "Camera",
+        "Takes pictures"
+      ],
+      [
+        "Charger",
+        "Powers electronic device"
+      ],
+      [
+        "Internet",
+        "Global network"
+      ],
+      [
+        "App",
+        "Software application"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\ude97 Transportation",
+    "words": [
+      [
+        "Bus",
+        "Public road vehicle"
+      ],
+      [
+        "Train",
+        "Rail transport"
+      ],
+      [
+        "Plane",
+        "Air vehicle"
+      ],
+      [
+        "Boat",
+        "Water transport"
+      ],
+      [
+        "Bicycle",
+        "Two-wheeled transport"
+      ],
+      [
+        "Taxi",
+        "Car for hire"
+      ],
+      [
+        "Motorcycle",
+        "Two-wheeled motor vehicle"
+      ],
+      [
+        "Truck",
+        "Large cargo vehicle"
+      ],
+      [
+        "Helicopter",
+        "Flying vehicle with rotors"
+      ],
+      [
+        "Subway",
+        "Underground train"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udfc3 Sports & Fitness",
+    "words": [
+      [
+        "Football",
+        "Ball game on a field"
+      ],
+      [
+        "Basketball",
+        "Ball game with a hoop"
+      ],
+      [
+        "Tennis",
+        "Racquet sport"
+      ],
+      [
+        "Cricket",
+        "Bat-and-ball game"
+      ],
+      [
+        "Yoga",
+        "Mind-body exercise"
+      ],
+      [
+        "Gym",
+        "Fitness center"
+      ],
+      [
+        "Swim",
+        "Move through water"
+      ],
+      [
+        "Lift",
+        "Raise weights"
+      ],
+      [
+        "Run",
+        "Jog or sprint"
+      ],
+      [
+        "Stretch",
+        "Extend muscles"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf89 Holidays & Events",
+    "words": [
+      [
+        "Birthday",
+        "Anniversary of birth"
+      ],
+      [
+        "Wedding",
+        "Marriage ceremony"
+      ],
+      [
+        "Christmas",
+        "Holiday on December 25"
+      ],
+      [
+        "Easter",
+        "Christian spring holiday"
+      ],
+      [
+        "New Year",
+        "Start of the year"
+      ],
+      [
+        "Festival",
+        "Cultural celebration"
+      ],
+      [
+        "Holiday",
+        "Day off from work"
+      ],
+      [
+        "Party",
+        "Social gathering"
+      ],
+      [
+        "Anniversary",
+        "Yearly remembrance"
+      ],
+      [
+        "Vacation",
+        "Time away for rest"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udfeb School & Learning",
+    "words": [
+      [
+        "Teacher",
+        "Educator"
+      ],
+      [
+        "Student",
+        "Learner"
+      ],
+      [
+        "Book",
+        "Written work"
+      ],
+      [
+        "Pencil",
+        "Writing tool"
+      ],
+      [
+        "Eraser",
+        "Removes pencil marks"
+      ],
+      [
+        "Class",
+        "Group of students"
+      ],
+      [
+        "Homework",
+        "Schoolwork at home"
+      ],
+      [
+        "Test",
+        "Assessment"
+      ],
+      [
+        "Lesson",
+        "Unit of instruction"
+      ],
+      [
+        "Subject",
+        "Area of study"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\uded2 Shopping & Money",
+    "words": [
+      [
+        "Buy",
+        "To purchase something"
+      ],
+      [
+        "Sell",
+        "To exchange for money"
+      ],
+      [
+        "Price",
+        "Cost of an item"
+      ],
+      [
+        "Cheap",
+        "Low in price"
+      ],
+      [
+        "Expensive",
+        "High in price"
+      ],
+      [
+        "Market",
+        "Place to shop"
+      ],
+      [
+        "Money",
+        "Medium of exchange"
+      ],
+      [
+        "Cash",
+        "Physical money"
+      ],
+      [
+        "Card",
+        "Plastic payment method"
+      ],
+      [
+        "Discount",
+        "Price reduction"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\ude97 Transportation",
+    "words": [
+      [
+        "Bus",
+        "Large vehicle for public transport"
+      ],
+      [
+        "Train",
+        "Rail vehicle for transport"
+      ],
+      [
+        "Plane",
+        "Aircraft for travel"
+      ],
+      [
+        "Ticket",
+        "Pass to enter/board"
+      ],
+      [
+        "Driver",
+        "Person operating vehicle"
+      ],
+      [
+        "Passenger",
+        "Person being transported"
+      ],
+      [
+        "Travel",
+        "To go from place to place"
+      ],
+      [
+        "Road",
+        "Path for vehicles"
+      ],
+      [
+        "Airport",
+        "Place for air travel"
+      ],
+      [
+        "Taxi",
+        "Hired car with driver"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf7d\ufe0f Food & Drinks",
+    "words": [
+      [
+        "Bread",
+        "Baked food"
+      ],
+      [
+        "Water",
+        "Essential drink"
+      ],
+      [
+        "Milk",
+        "White dairy drink"
+      ],
+      [
+        "Tea",
+        "Hot drink from leaves"
+      ],
+      [
+        "Coffee",
+        "Caffeinated drink"
+      ],
+      [
+        "Rice",
+        "Staple grain"
+      ],
+      [
+        "Fruit",
+        "Sweet plant food"
+      ],
+      [
+        "Vegetable",
+        "Plant used as food"
+      ],
+      [
+        "Meat",
+        "Animal flesh for food"
+      ],
+      [
+        "Sugar",
+        "Sweet substance"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83e\uddcd People & Relationships",
+    "words": [
+      [
+        "Friend",
+        "Person you like"
+      ],
+      [
+        "Family",
+        "Group of related people"
+      ],
+      [
+        "Mother",
+        "Female parent"
+      ],
+      [
+        "Father",
+        "Male parent"
+      ],
+      [
+        "Brother",
+        "Male sibling"
+      ],
+      [
+        "Sister",
+        "Female sibling"
+      ],
+      [
+        "Husband",
+        "Married man"
+      ],
+      [
+        "Wife",
+        "Married woman"
+      ],
+      [
+        "Child",
+        "Young person"
+      ],
+      [
+        "Neighbor",
+        "Person who lives nearby"
+      ]
+    ]
+  },
+  {
+    "title": "\u2764\ufe0f Feelings & Emotions",
+    "words": [
+      [
+        "Happy",
+        "Feeling good"
+      ],
+      [
+        "Sad",
+        "Feeling down"
+      ],
+      [
+        "Angry",
+        "Feeling mad"
+      ],
+      [
+        "Afraid",
+        "Feeling scared"
+      ],
+      [
+        "Excited",
+        "Feeling thrilled"
+      ],
+      [
+        "Tired",
+        "Feeling sleepy"
+      ],
+      [
+        "Bored",
+        "Not interested"
+      ],
+      [
+        "Nervous",
+        "Anxious feeling"
+      ],
+      [
+        "Confused",
+        "Not understanding"
+      ],
+      [
+        "Proud",
+        "Feeling satisfied"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83e\uddfc Health & Hygiene",
+    "words": [
+      [
+        "Clean",
+        "Without dirt"
+      ],
+      [
+        "Dirty",
+        "Not clean"
+      ],
+      [
+        "Sick",
+        "Not healthy"
+      ],
+      [
+        "Doctor",
+        "Health professional"
+      ],
+      [
+        "Medicine",
+        "Used to treat illness"
+      ],
+      [
+        "Toothbrush",
+        "Cleans teeth"
+      ],
+      [
+        "Soap",
+        "Used for washing"
+      ],
+      [
+        "Bath",
+        "Washing body"
+      ],
+      [
+        "Shower",
+        "Standing wash"
+      ],
+      [
+        "Towel",
+        "Used to dry"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83e\uddf3 Travel & Directions",
+    "words": [
+      [
+        "Left",
+        "Opposite of right"
+      ],
+      [
+        "Right",
+        "Opposite of left"
+      ],
+      [
+        "Straight",
+        "Without turns"
+      ],
+      [
+        "Turn",
+        "Change direction"
+      ],
+      [
+        "Map",
+        "Guide to places"
+      ],
+      [
+        "Near",
+        "Close by"
+      ],
+      [
+        "Far",
+        "Not near"
+      ],
+      [
+        "Go",
+        "Move to place"
+      ],
+      [
+        "Come",
+        "Move towards speaker"
+      ],
+      [
+        "Stop",
+        "Cease movement"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udfe1 Home & Furniture",
+    "words": [
+      [
+        "Bed",
+        "Used for sleeping"
+      ],
+      [
+        "Sofa",
+        "Comfortable seating"
+      ],
+      [
+        "Lamp",
+        "Gives light"
+      ],
+      [
+        "Mirror",
+        "Reflects image"
+      ],
+      [
+        "Door",
+        "Entry to room"
+      ],
+      [
+        "Window",
+        "Glass opening"
+      ],
+      [
+        "Kitchen",
+        "Room for cooking"
+      ],
+      [
+        "Bathroom",
+        "Room for bathing"
+      ],
+      [
+        "Closet",
+        "Storage for clothes"
+      ],
+      [
+        "Curtain",
+        "Window cover"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\udd8d\ufe0f Colors & Shapes",
+    "words": [
+      [
+        "Red",
+        "Color of fire"
+      ],
+      [
+        "Blue",
+        "Color of sky"
+      ],
+      [
+        "Green",
+        "Color of grass"
+      ],
+      [
+        "Yellow",
+        "Color of sun"
+      ],
+      [
+        "Black",
+        "Darkest color"
+      ],
+      [
+        "White",
+        "Lightest color"
+      ],
+      [
+        "Circle",
+        "Round shape"
+      ],
+      [
+        "Square",
+        "4 equal sides"
+      ],
+      [
+        "Triangle",
+        "3-sided shape"
+      ],
+      [
+        "Rectangle",
+        "4 sides, opposite equal"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf26\ufe0f Weather & Seasons",
+    "words": [
+      [
+        "Rain",
+        "Water from sky"
+      ],
+      [
+        "Sun",
+        "Gives light & heat"
+      ],
+      [
+        "Snow",
+        "Frozen water flakes"
+      ],
+      [
+        "Wind",
+        "Moving air"
+      ],
+      [
+        "Cloud",
+        "White/gray sky form"
+      ],
+      [
+        "Storm",
+        "Bad weather"
+      ],
+      [
+        "Summer",
+        "Hot season"
+      ],
+      [
+        "Winter",
+        "Cold season"
+      ],
+      [
+        "Spring",
+        "Season of growth"
+      ],
+      [
+        "Autumn",
+        "Leaves fall season"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf0d Nature & Environment",
+    "words": [
+      [
+        "Tree",
+        "Tall plant with a trunk"
+      ],
+      [
+        "River",
+        "Large natural stream of water"
+      ],
+      [
+        "Mountain",
+        "High landform"
+      ],
+      [
+        "Rain",
+        "Water falling from clouds"
+      ],
+      [
+        "Sun",
+        "Star at the center of the solar system"
+      ],
+      [
+        "Moon",
+        "Earth's natural satellite"
+      ],
+      [
+        "Wind",
+        "Moving air"
+      ],
+      [
+        "Ocean",
+        "Large body of salt water"
+      ],
+      [
+        "Forest",
+        "Large area with many trees"
+      ],
+      [
+        "Flower",
+        "Colorful part of a plant"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf7d\ufe0f Food & Drink",
+    "words": [
+      [
+        "Apple",
+        "Red or green fruit"
+      ],
+      [
+        "Bread",
+        "Baked food made from flour"
+      ],
+      [
+        "Milk",
+        "White liquid from cows"
+      ],
+      [
+        "Water",
+        "Essential liquid for life"
+      ],
+      [
+        "Rice",
+        "Staple grain food"
+      ],
+      [
+        "Chicken",
+        "Common poultry meat"
+      ],
+      [
+        "Fish",
+        "Aquatic animal used as food"
+      ],
+      [
+        "Egg",
+        "Oval product from a bird"
+      ],
+      [
+        "Soup",
+        "Liquid food"
+      ],
+      [
+        "Juice",
+        "Drink from fruits or vegetables"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\udc55 Clothing",
+    "words": [
+      [
+        "Shirt",
+        "Upper body garment"
+      ],
+      [
+        "Pants",
+        "Lower body garment"
+      ],
+      [
+        "Shoes",
+        "Footwear"
+      ],
+      [
+        "Hat",
+        "Headwear"
+      ],
+      [
+        "Dress",
+        "One-piece clothing"
+      ],
+      [
+        "Socks",
+        "Foot coverings"
+      ],
+      [
+        "Coat",
+        "Outerwear"
+      ],
+      [
+        "Skirt",
+        "Lower garment for women"
+      ],
+      [
+        "Gloves",
+        "Hand coverings"
+      ],
+      [
+        "Scarf",
+        "Neckwear for warmth"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83e\uddcd Actions",
+    "words": [
+      [
+        "Run",
+        "Move quickly on foot"
+      ],
+      [
+        "Walk",
+        "Move at a normal pace"
+      ],
+      [
+        "Jump",
+        "Push off the ground"
+      ],
+      [
+        "Sit",
+        "Rest on buttocks"
+      ],
+      [
+        "Stand",
+        "Be upright"
+      ],
+      [
+        "Sleep",
+        "Rest at night"
+      ],
+      [
+        "Eat",
+        "Consume food"
+      ],
+      [
+        "Drink",
+        "Consume liquid"
+      ],
+      [
+        "Laugh",
+        "Express happiness"
+      ],
+      [
+        "Cry",
+        "Tears from eyes"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83e\uddf0 Tools & Objects",
+    "words": [
+      [
+        "Hammer",
+        "Tool for pounding"
+      ],
+      [
+        "Nail",
+        "Sharp metal pin"
+      ],
+      [
+        "Screwdriver",
+        "Tool to turn screws"
+      ],
+      [
+        "Wrench",
+        "Tool for gripping"
+      ],
+      [
+        "Knife",
+        "Cutting tool"
+      ],
+      [
+        "Fork",
+        "Eating utensil"
+      ],
+      [
+        "Spoon",
+        "Scooping utensil"
+      ],
+      [
+        "Box",
+        "Container"
+      ],
+      [
+        "Bag",
+        "Portable container"
+      ],
+      [
+        "Pen",
+        "Writing instrument"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\udcf1 Technology",
+    "words": [
+      [
+        "Phone",
+        "Communication device"
+      ],
+      [
+        "Computer",
+        "Electronic computing device"
+      ],
+      [
+        "Tablet",
+        "Portable touchscreen device"
+      ],
+      [
+        "Keyboard",
+        "Typing input device"
+      ],
+      [
+        "Mouse",
+        "Pointing device"
+      ],
+      [
+        "Screen",
+        "Display panel"
+      ],
+      [
+        "Camera",
+        "Takes pictures"
+      ],
+      [
+        "Charger",
+        "Powers electronic device"
+      ],
+      [
+        "Internet",
+        "Global network"
+      ],
+      [
+        "App",
+        "Software application"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\ude97 Transportation",
+    "words": [
+      [
+        "Bus",
+        "Public road vehicle"
+      ],
+      [
+        "Train",
+        "Rail transport"
+      ],
+      [
+        "Plane",
+        "Air vehicle"
+      ],
+      [
+        "Boat",
+        "Water transport"
+      ],
+      [
+        "Bicycle",
+        "Two-wheeled transport"
+      ],
+      [
+        "Taxi",
+        "Car for hire"
+      ],
+      [
+        "Motorcycle",
+        "Two-wheeled motor vehicle"
+      ],
+      [
+        "Truck",
+        "Large cargo vehicle"
+      ],
+      [
+        "Helicopter",
+        "Flying vehicle with rotors"
+      ],
+      [
+        "Subway",
+        "Underground train"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udfc3 Sports & Fitness",
+    "words": [
+      [
+        "Football",
+        "Ball game on a field"
+      ],
+      [
+        "Basketball",
+        "Ball game with a hoop"
+      ],
+      [
+        "Tennis",
+        "Racquet sport"
+      ],
+      [
+        "Cricket",
+        "Bat-and-ball game"
+      ],
+      [
+        "Yoga",
+        "Mind-body exercise"
+      ],
+      [
+        "Gym",
+        "Fitness center"
+      ],
+      [
+        "Swim",
+        "Move through water"
+      ],
+      [
+        "Lift",
+        "Raise weights"
+      ],
+      [
+        "Run",
+        "Jog or sprint"
+      ],
+      [
+        "Stretch",
+        "Extend muscles"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf89 Holidays & Events",
+    "words": [
+      [
+        "Birthday",
+        "Anniversary of birth"
+      ],
+      [
+        "Wedding",
+        "Marriage ceremony"
+      ],
+      [
+        "Christmas",
+        "Holiday on December 25"
+      ],
+      [
+        "Easter",
+        "Christian spring holiday"
+      ],
+      [
+        "New Year",
+        "Start of the year"
+      ],
+      [
+        "Festival",
+        "Cultural celebration"
+      ],
+      [
+        "Holiday",
+        "Day off from work"
+      ],
+      [
+        "Party",
+        "Social gathering"
+      ],
+      [
+        "Anniversary",
+        "Yearly remembrance"
+      ],
+      [
+        "Vacation",
+        "Time away for rest"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udfeb School & Learning",
+    "words": [
+      [
+        "Teacher",
+        "Educator"
+      ],
+      [
+        "Student",
+        "Learner"
+      ],
+      [
+        "Book",
+        "Written work"
+      ],
+      [
+        "Pencil",
+        "Writing tool"
+      ],
+      [
+        "Eraser",
+        "Removes pencil marks"
+      ],
+      [
+        "Class",
+        "Group of students"
+      ],
+      [
+        "Homework",
+        "Schoolwork at home"
+      ],
+      [
+        "Test",
+        "Assessment"
+      ],
+      [
+        "Lesson",
+        "Unit of instruction"
+      ],
+      [
+        "Subject",
+        "Area of study"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\udeb6\u200d\u2642\ufe0f Actions",
+    "words": [
+      [
+        "Run",
+        "Move quickly by foot"
+      ],
+      [
+        "Walk",
+        "Move at a normal pace"
+      ],
+      [
+        "Jump",
+        "Push oneself off the ground"
+      ],
+      [
+        "Sit",
+        "Rest on the buttocks"
+      ],
+      [
+        "Stand",
+        "Be in an upright position"
+      ],
+      [
+        "Sleep",
+        "Be in a state of rest"
+      ],
+      [
+        "Wake",
+        "Stop sleeping"
+      ],
+      [
+        "Climb",
+        "Go upward using limbs"
+      ],
+      [
+        "Swim",
+        "Move through water"
+      ],
+      [
+        "Drive",
+        "Control a vehicle"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf54 Food",
+    "words": [
+      [
+        "Bread",
+        "Baked food from flour"
+      ],
+      [
+        "Rice",
+        "Grain used as food"
+      ],
+      [
+        "Meat",
+        "Animal flesh for eating"
+      ],
+      [
+        "Fish",
+        "Aquatic animal for food"
+      ],
+      [
+        "Egg",
+        "Oval object laid by birds"
+      ],
+      [
+        "Milk",
+        "White liquid from mammals"
+      ],
+      [
+        "Cheese",
+        "Dairy product from milk"
+      ],
+      [
+        "Apple",
+        "Red or green fruit"
+      ],
+      [
+        "Banana",
+        "Long yellow fruit"
+      ],
+      [
+        "Vegetable",
+        "Plant or part of it used as food"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf89 Emotions",
+    "words": [
+      [
+        "Happy",
+        "Feeling joy"
+      ],
+      [
+        "Sad",
+        "Feeling sorrow"
+      ],
+      [
+        "Angry",
+        "Feeling mad"
+      ],
+      [
+        "Excited",
+        "Eager and enthusiastic"
+      ],
+      [
+        "Scared",
+        "Afraid"
+      ],
+      [
+        "Tired",
+        "In need of rest"
+      ],
+      [
+        "Bored",
+        "Lacking interest"
+      ],
+      [
+        "Nervous",
+        "Worried or uneasy"
+      ],
+      [
+        "Proud",
+        "Feeling self-respect"
+      ],
+      [
+        "Surprised",
+        "Feeling shocked"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\udca1 Adverbs",
+    "words": [
+      [
+        "Quickly",
+        "At a fast speed"
+      ],
+      [
+        "Slowly",
+        "At a low speed"
+      ],
+      [
+        "Loudly",
+        "With a lot of noise"
+      ],
+      [
+        "Softly",
+        "With little force or volume"
+      ],
+      [
+        "Often",
+        "Frequently"
+      ],
+      [
+        "Rarely",
+        "Not often"
+      ],
+      [
+        "Always",
+        "At all times"
+      ],
+      [
+        "Never",
+        "At no time"
+      ],
+      [
+        "Sometimes",
+        "Occasionally"
+      ],
+      [
+        "Clearly",
+        "In a clear manner"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\udce6 Objects",
+    "words": [
+      [
+        "Phone",
+        "Device for communication"
+      ],
+      [
+        "Book",
+        "Collection of written pages"
+      ],
+      [
+        "Pen",
+        "Tool for writing"
+      ],
+      [
+        "Bag",
+        "Container for carrying things"
+      ],
+      [
+        "Box",
+        "Container with flat sides"
+      ],
+      [
+        "Clock",
+        "Device that shows time"
+      ],
+      [
+        "Lamp",
+        "Device that produces light"
+      ],
+      [
+        "Key",
+        "Used to open locks"
+      ],
+      [
+        "Bottle",
+        "Container for liquids"
+      ],
+      [
+        "Cup",
+        "Small container for drinks"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\udcbc Jobs",
+    "words": [
+      [
+        "Doctor",
+        "Medical professional"
+      ],
+      [
+        "Teacher",
+        "One who educates"
+      ],
+      [
+        "Engineer",
+        "One who builds or designs"
+      ],
+      [
+        "Driver",
+        "Person who drives"
+      ],
+      [
+        "Farmer",
+        "One who grows food"
+      ],
+      [
+        "Nurse",
+        "Caregiver in hospital"
+      ],
+      [
+        "Chef",
+        "Cook in a restaurant"
+      ],
+      [
+        "Police",
+        "Law enforcement person"
+      ],
+      [
+        "Artist",
+        "Person who creates art"
+      ],
+      [
+        "Writer",
+        "One who writes"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udf26\ufe0f Weather",
+    "words": [
+      [
+        "Rain",
+        "Water from clouds"
+      ],
+      [
+        "Snow",
+        "Frozen water falling"
+      ],
+      [
+        "Sunny",
+        "Full of sunlight"
+      ],
+      [
+        "Cloudy",
+        "Covered by clouds"
+      ],
+      [
+        "Windy",
+        "With a lot of wind"
+      ],
+      [
+        "Storm",
+        "Violent weather"
+      ],
+      [
+        "Fog",
+        "Thick cloud near ground"
+      ],
+      [
+        "Hot",
+        "High temperature"
+      ],
+      [
+        "Cold",
+        "Low temperature"
+      ],
+      [
+        "Warm",
+        "Moderately hot"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\udccf Measurements",
+    "words": [
+      [
+        "Meter",
+        "Unit of length"
+      ],
+      [
+        "Kilogram",
+        "Unit of weight"
+      ],
+      [
+        "Liter",
+        "Unit of volume"
+      ],
+      [
+        "Inch",
+        "Small unit of length"
+      ],
+      [
+        "Foot",
+        "12 inches"
+      ],
+      [
+        "Mile",
+        "Long distance unit"
+      ],
+      [
+        "Gram",
+        "Small weight unit"
+      ],
+      [
+        "Hour",
+        "60 minutes"
+      ],
+      [
+        "Minute",
+        "60 seconds"
+      ],
+      [
+        "Second",
+        "Base time unit"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83c\udfaf Descriptions",
+    "words": [
+      [
+        "Clean",
+        "Not dirty"
+      ],
+      [
+        "Dirty",
+        "Not clean"
+      ],
+      [
+        "Fast",
+        "Quick speed"
+      ],
+      [
+        "Slow",
+        "Low speed"
+      ],
+      [
+        "Sharp",
+        "Having a thin edge"
+      ],
+      [
+        "Dull",
+        "Not sharp"
+      ],
+      [
+        "Bright",
+        "Full of light"
+      ],
+      [
+        "Dark",
+        "Little or no light"
+      ],
+      [
+        "Tall",
+        "High in height"
+      ],
+      [
+        "Short",
+        "Low in height"
+      ]
+    ]
+  },
+  {
+    "title": "\ud83d\udd17 Prepositions",
+    "words": [
+      [
+        "In",
+        "Inside something"
+      ],
+      [
+        "On",
+        "On top of"
+      ],
+      [
+        "Under",
+        "Below something"
+      ],
+      [
+        "Over",
+        "Above something"
+      ],
+      [
+        "Between",
+        "In the middle of"
+      ],
+      [
+        "Behind",
+        "At the back of"
+      ],
+      [
+        "Near",
+        "Close to"
+      ],
+      [
+        "With",
+        "Accompanied by"
+      ],
+      [
+        "Without",
+        "Lacking something"
+      ],
+      [
+        "At",
+        "Specific point or place"
+      ]
+    ]
+  }
+]

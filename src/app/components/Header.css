@@ -1,0 +1,425 @@
+/* src/app/components/Header.css */
+.header {
+    background-color: #fff;
+    padding: 3px 5px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;  
+    width: 100%; 
+    height: 50px;
+    z-index: 1000; 
+}
+
+.header.dark {
+    background-color: #000000;
+    color: #f8f9fa;
+}
+
+.logo-container {
+    display: flex;
+    min-width: 150px; 
+    padding-left: 10px;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.logo-container-dark {
+    display: flex;
+    min-width: 150px; 
+    align-items: center;
+    padding-right: 20px;
+}
+
+.logo-text {
+    padding-left: 5px;
+    font-size: 18px;
+    color: #073a6d;
+    font-weight: inherit;
+}
+
+.logo-text-white {
+    padding-left: 5px;
+    font-size: 18px;
+    color: white;
+    font-weight: inherit;
+}
+
+.logo-image {
+    max-width: 100%; 
+    height: auto;  
+}
+
+.tagline {
+    font-size: 0.7em;
+    color: #3d586f;
+    margin: 5px 0;
+    transition: color 0.3s;
+    padding-left: 15px;
+}
+
+.header.dark .logo-container h1,
+.header.dark .tagline {
+    color: #f8f9fa;
+}
+
+.search-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.search-bar {
+    padding: 2px 20px 2px 15px;
+    border-radius: 25px;
+    border: 1px solid #ced4da;
+    font-size: 1.0em;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.search-btn {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #073a6d;
+    padding: 5px;
+}
+
+.header.dark .search-bar {
+    background-color: #495057;
+    border: 1px solid #6c757d;
+    color: #f8f9fa;
+}
+
+.header.dark .search-btn {
+    color: #f8f9fa;
+}
+
+.header-controls {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dark-mode-toggle {
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.social-icons a {
+    color: #073a6d;
+    font-size: 1.5em;
+    margin: 0 6px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #00a4b3;
+}
+
+.header.dark .social-icons a {
+    color: #f8f9fa;
+}
+
+.signin-signup-container {
+    position: relative;
+    width: 163px;
+    height: 30px;
+}
+
+.signin-btn,
+.signup-btn {
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: all 0.3s ease;
+}
+
+.signin-btn {
+    background-color: #073a6d;
+    left: 0;
+    z-index: 1;
+}
+
+.signup-btn {
+    background-color: #00a4b3;
+    right: 0;
+    z-index: 0;
+}
+
+.signin-btn:hover,
+.signup-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.signin-btn:hover {
+    background-color: #0056b3;
+}
+
+.signup-btn:hover {
+    background-color: #008c9e;
+}
+
+/* Dropdown container */
+.dropdown-container {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+  
+  /* Dropdown button */
+.dropdown-btn {
+    background-color: transparent;
+    color: inherit;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-arrow {
+    font-size: 12px;
+}
+  
+.dropdown-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+  
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 140px;
+    font-size: 14px;
+    box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+  
+  /* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.mobile-only {
+    display: none;
+}
+  
+.desktop-only {
+    display: flex;
+}
+
+.menu-btn-dark {
+    color: #ffffff !important;
+  }
+
+.user-menu {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.user-menu-trigger {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.user-menu-trigger:hover {
+  background-color: #e0e0e0;
+}
+
+.profile-icon {
+  font-size: 20px;
+}
+
+.user-menu-dropdown {
+  display: none;
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  z-index: 1000;
+  min-width: 180px;
+}
+
+.user-menu:hover .user-menu-dropdown {
+  display: block;
+}
+
+.user-menu-dropdown .user-greeting {
+  padding: 10px 14px;
+  font-weight: 500;
+  border-bottom: 1px solid #eee;
+}
+
+.user-menu-dropdown button {
+  width: 100%;
+  padding: 10px 14px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.user-menu-dropdown button:hover {
+  background-color: #f9f9f9;
+}
+
+
+@media (max-width: 920px) {
+    .signin-btn,
+    .signup-btn {
+        width: 90px;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .signin-signup-container {
+        position: relative;
+        width: 163px;
+        height: 30px;
+        margin-left: 5px;
+    }
+    .search-container {
+        margin: 0 0;
+        max-width: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .search-bar {
+        padding: 1px 20px 1px 15px;
+        font-size: 0.8em;
+    }
+    .search-btn {
+        font-size: 1.0em;
+        padding: 12px;
+    }
+
+    .social-icons {
+        margin-right: 0;
+    }
+
+    .social-icons a {
+        color: #073a6d;
+        font-size: 1.2em;
+        margin: 0 2px;
+        transition: color 0.3s ease;
+    }
+
+    .header-controls {
+        flex: 0;
+    }
+
+    .desktop-only {
+        display: none;
+      }
+    
+      .mobile-only {
+        display: block;
+      }
+    
+      .menu-dropdown {
+        position: absolute;
+        background-color: #f0f8ff;
+        width: 175px;
+      }
+
+      .menu-dropdown-dark {
+        background-color: #000000 !important;
+      }
+    
+      .menu-dropdown .dropdown-content {
+        display: block;
+        background-color: #f0fff0;
+        box-shadow: none;
+        width: 175px;
+        z-index: 9999;
+      }  
+      .menu-btn {
+        background-color: transparent;
+        border: none;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #073a6d;
+        cursor: pointer;
+      }
+    
+      .dropdown-btn {
+        background-color: transparent;
+        color: inherit;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        padding: 10px 15px;
+        transition: background-color 0.3s ease;
+      }
+    
+      .dropdown-content {
+        display: none;
+      }
+    
+      .dropdown-content a {
+        padding: 10px;
+        display: block;
+        text-align: left;
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #43aab4; 
+    }
+    
+      .dropdown-arrow {
+        font-size: 12px;
+    }
+}

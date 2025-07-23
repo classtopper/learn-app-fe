@@ -1,0 +1,1502 @@
+[
+  {
+    "title": "🔤 Common Nouns",
+    "words": [
+      ["der Mann", "the man"],
+      ["die Frau", "the woman"],
+      ["das Kind", "the child"],
+      ["das Haus", "the house"],
+      ["das Auto", "the car"],
+      ["der Hund", "the dog"],
+      ["die Katze", "the cat"],
+      ["die Straße", "the street"],
+      ["der Tisch", "the table"],
+      ["der Stuhl", "the chair"]
+    ]
+  },
+  {
+    "title": "🔠 Pronouns",
+    "words": [
+      ["ich", "I"],
+      ["du", "you (informal)"],
+      ["er", "he"],
+      ["sie", "she"],
+      ["es", "it"],
+      ["wir", "we"],
+      ["ihr", "you all"],
+      ["sie", "they"],
+      ["Sie", "you (formal)"],
+      ["mich", "me"]
+    ]
+  },
+  {
+    "title": "🔤 Verbs (Infinitive)",
+    "words": [
+      ["sein", "to be"],
+      ["haben", "to have"],
+      ["gehen", "to go"],
+      ["kommen", "to come"],
+      ["machen", "to do / make"],
+      ["sagen", "to say"],
+      ["sehen", "to see"],
+      ["essen", "to eat"],
+      ["trinken", "to drink"],
+      ["schlafen", "to sleep"]
+    ]
+  },
+  {
+    "title": "🔡 Adjectives",
+    "words": [
+      ["gut", "good"],
+      ["schlecht", "bad"],
+      ["groß", "big / tall"],
+      ["klein", "small / short"],
+      ["schön", "beautiful"],
+      ["hässlich", "ugly"],
+      ["alt", "old"],
+      ["jung", "young"],
+      ["neu", "new"],
+      ["kalt", "cold"]
+    ]
+  },
+  {
+    "title": "🕓 Numbers",
+    "words": [
+      ["eins", "one"],
+      ["zwei", "two"],
+      ["drei", "three"],
+      ["vier", "four"],
+      ["fünf", "five"],
+      ["sechs", "six"],
+      ["sieben", "seven"],
+      ["acht", "eight"],
+      ["neun", "nine"],
+      ["zehn", "ten"]
+    ]
+  },
+  {
+    "title": "📅 Days & Time",
+    "words": [
+      ["Montag", "Monday"],
+      ["Dienstag", "Tuesday"],
+      ["Mittwoch", "Wednesday"],
+      ["Donnerstag", "Thursday"],
+      ["Freitag", "Friday"],
+      ["Samstag", "Saturday"],
+      ["Sonntag", "Sunday"],
+      ["heute", "today"],
+      ["morgen", "tomorrow"],
+      ["gestern", "yesterday"]
+    ]
+  },
+  {
+    "title": "🌍 Basic Questions",
+    "words": [
+      ["Wer?", "Who?"],
+      ["Was?", "What?"],
+      ["Wo?", "Where?"],
+      ["Wann?", "When?"],
+      ["Warum?", "Why?"],
+      ["Wie?", "How?"],
+      ["Wie viel?", "How much?"],
+      ["Wohin?", "Where to?"],
+      ["Woher?", "Where from?"],
+      ["Welcher?", "Which?"]
+    ]
+  },
+  {
+    "title": "🛠 Useful Words",
+    "words": [
+      ["ja", "yes"],
+      ["nein", "no"],
+      ["vielleicht", "maybe"],
+      ["danke", "thank you"],
+      ["bitte", "please / you're welcome"],
+      ["Entschuldigung", "excuse me / sorry"],
+      ["Hallo", "hello"],
+      ["Tschüss", "bye"],
+      ["Auf Wiedersehen", "goodbye"],
+      ["Willkommen", "welcome"]
+    ]
+  },
+  {
+    "title": "🚪 Places",
+    "words": [
+      ["die Schule", "the school"],
+      ["der Supermarkt", "the supermarket"],
+      ["das Krankenhaus", "the hospital"],
+      ["der Bahnhof", "the train station"],
+      ["das Hotel", "the hotel"],
+      ["die Stadt", "the city"],
+      ["das Dorf", "the village"],
+      ["der Park", "the park"],
+      ["das Restaurant", "the restaurant"],
+      ["die Kirche", "the church"]
+    ]
+  },
+  {
+    "title": "🍏 Food & Drink",
+    "words": [
+      ["das Wasser", "water"],
+      ["das Brot", "bread"],
+      ["der Apfel", "apple"],
+      ["die Milch", "milk"],
+      ["das Fleisch", "meat"],
+      ["das Gemüse", "vegetables"],
+      ["der Käse", "cheese"],
+      ["der Fisch", "fish"],
+      ["der Kaffee", "coffee"],
+      ["der Tee", "tea"]
+    ]
+  },
+  {
+    "title": "🟥 Colors",
+    "words": [
+      ["rot", "red"],
+      ["blau", "blue"],
+      ["grün", "green"],
+      ["gelb", "yellow"],
+      ["schwarz", "black"],
+      ["weiß", "white"],
+      ["grau", "gray"],
+      ["braun", "brown"],
+      ["rosa", "pink"],
+      ["orange", "orange"]
+    ]
+  },
+  {
+    "title": "↔️ Opposites",
+    "words": [
+      ["heiß", "hot"],
+      ["kalt", "cold"],
+      ["lang", "long"],
+      ["kurz", "short"],
+      ["dick", "thick / fat"],
+      ["dünn", "thin / slim"],
+      ["laut", "loud"],
+      ["leise", "quiet"],
+      ["stark", "strong"],
+      ["schwach", "weak"]
+    ]
+  },
+  {
+    "title": "⚓ Prepositions",
+    "words": [
+      ["auf", "on"],
+      ["unter", "under"],
+      ["neben", "next to"],
+      ["zwischen", "between"],
+      ["hinter", "behind"],
+      ["vor", "in front of"],
+      ["über", "above / over"],
+      ["in", "in"],
+      ["aus", "out of"],
+      ["mit", "with"]
+    ]
+  },
+  {
+    "title": "🌲 Nature",
+    "words": [
+      ["der Baum", "tree"],
+      ["die Blume", "flower"],
+      ["das Gras", "grass"],
+      ["der Fluss", "river"],
+      ["der Berg", "mountain"],
+      ["der Wald", "forest"],
+      ["die Sonne", "sun"],
+      ["der Mond", "moon"],
+      ["der Stern", "star"],
+      ["das Meer", "sea"]
+    ]
+  },
+  {
+    "title": "👕 Clothing",
+    "words": [
+      ["das Hemd", "shirt"],
+      ["die Hose", "pants"],
+      ["das Kleid", "dress"],
+      ["die Jacke", "jacket"],
+      ["die Schuhe", "shoes"],
+      ["die Socken", "socks"],
+      ["der Hut", "hat"],
+      ["der Mantel", "coat"],
+      ["der Rock", "skirt"],
+      ["der Anzug", "suit"]
+    ]
+  },
+  {
+    "title": "👪 Family",
+    "words": [
+      ["der Vater", "father"],
+      ["die Mutter", "mother"],
+      ["der Bruder", "brother"],
+      ["die Schwester", "sister"],
+      ["die Eltern", "parents"],
+      ["die Kinder", "children"],
+      ["der Sohn", "son"],
+      ["die Tochter", "daughter"],
+      ["der Opa", "grandpa"],
+      ["die Oma", "grandma"]
+    ]
+  },
+  {
+    "title": "💪 Body Parts",
+    "words": [
+      ["der Kopf", "head"],
+      ["das Auge", "eye"],
+      ["das Ohr", "ear"],
+      ["die Nase", "nose"],
+      ["der Mund", "mouth"],
+      ["der Arm", "arm"],
+      ["die Hand", "hand"],
+      ["das Bein", "leg"],
+      ["der Fuß", "foot"],
+      ["der Bauch", "belly"]
+    ]
+  },
+  {
+    "title": "😊 Emotions",
+    "words": [
+      ["glücklich", "happy"],
+      ["traurig", "sad"],
+      ["wütend", "angry"],
+      ["nervös", "nervous"],
+      ["stolz", "proud"],
+      ["ängstlich", "scared"],
+      ["überrascht", "surprised"],
+      ["müde", "tired"],
+      ["gelangweilt", "bored"],
+      ["zufrieden", "content"]
+    ]
+  },
+  {
+    "title": "🏫 School",
+    "words": [
+      ["das Buch", "book"],
+      ["der Stift", "pen"],
+      ["das Papier", "paper"],
+      ["die Schule", "school"],
+      ["der Lehrer", "teacher (male)"],
+      ["die Lehrerin", "teacher (female)"],
+      ["die Klasse", "class"],
+      ["das Heft", "notebook"],
+      ["die Tafel", "chalkboard"],
+      ["der Schüler", "student (male)"]
+    ]
+  },
+  {
+    "title": "✈️ Travel",
+    "words": [
+      ["der Flughafen", "airport"],
+      ["das Flugzeug", "airplane"],
+      ["der Zug", "train"],
+      ["der Bus", "bus"],
+      ["das Auto", "car"],
+      ["das Ticket", "ticket"],
+      ["der Pass", "passport"],
+      ["die Karte", "map"],
+      ["der Koffer", "suitcase"],
+      ["der Urlaub", "vacation"]
+    ]
+  },
+  {
+    "title": "💼 Professions",
+    "words": [
+      ["der Arzt", "doctor (male)"],
+      ["die Ärztin", "doctor (female)"],
+      ["der Lehrer", "teacher (male)"],
+      ["die Lehrerin", "teacher (female)"],
+      ["der Ingenieur", "engineer (male)"],
+      ["die Ingenieurin", "engineer (female)"],
+      ["der Koch", "cook (male)"],
+      ["die Köchin", "cook (female)"],
+      ["der Polizist", "police officer (male)"],
+      ["die Polizistin", "police officer (female)"]
+    ]
+  },
+  {
+    "title": "🏠 At Home",
+    "words": [
+      ["das Fenster", "window"],
+      ["die Tür", "door"],
+      ["das Bett", "bed"],
+      ["der Schrank", "closet"],
+      ["die Lampe", "lamp"],
+      ["der Teppich", "carpet"],
+      ["der Spiegel", "mirror"],
+      ["das Sofa", "sofa"],
+      ["der Fernseher", "TV"],
+      ["der Kühlschrank", "refrigerator"]
+    ]
+  },
+  {
+    "title": "🍽 Kitchen",
+    "words": [
+      ["der Teller", "plate"],
+      ["das Glas", "glass"],
+      ["die Tasse", "cup"],
+      ["das Messer", "knife"],
+      ["die Gabel", "fork"],
+      ["der Löffel", "spoon"],
+      ["der Topf", "pot"],
+      ["die Pfanne", "pan"],
+      ["der Ofen", "oven"],
+      ["der Herd", "stove"]
+    ]
+  },
+  {
+    "title": "📱 Technology",
+    "words": [
+      ["das Handy", "mobile phone"],
+      ["der Computer", "computer"],
+      ["der Laptop", "laptop"],
+      ["die Tastatur", "keyboard"],
+      ["die Maus", "mouse"],
+      ["der Bildschirm", "screen"],
+      ["das Internet", "internet"],
+      ["die App", "app"],
+      ["das Ladegerät", "charger"],
+      ["das Kabel", "cable"]
+    ]
+  },
+  {
+    "title": "📚 Education",
+    "words": [
+      ["die Universität", "university"],
+      ["das Studium", "studies"],
+      ["das Fach", "subject"],
+      ["die Prüfung", "exam"],
+      ["das Zertifikat", "certificate"],
+      ["das Wissen", "knowledge"],
+      ["die Note", "grade"],
+      ["das Lernen", "learning"],
+      ["die Bibliothek", "library"],
+      ["die Bildung", "education"]
+    ]
+  },
+  {
+    "title": "🛒 Shopping",
+    "words": [
+      ["der Laden", "store"],
+      ["das Geschäft", "shop"],
+      ["der Supermarkt", "supermarket"],
+      ["der Preis", "price"],
+      ["das Angebot", "offer"],
+      ["der Rabatt", "discount"],
+      ["die Kasse", "cash register"],
+      ["die Tüte", "bag"],
+      ["die Quittung", "receipt"],
+      ["das Produkt", "product"]
+    ]
+  },
+  {
+    "title": "🧭 Directions",
+    "words": [
+      ["links", "left"],
+      ["rechts", "right"],
+      ["geradeaus", "straight ahead"],
+      ["zurück", "back"],
+      ["nach oben", "up"],
+      ["nach unten", "down"],
+      ["drinnen", "inside"],
+      ["draußen", "outside"],
+      ["überqueren", "to cross"],
+      ["abbiegen", "to turn"]
+    ]
+  },
+  {
+    "title": "🧼 Bathroom",
+    "words": [
+      ["die Dusche", "shower"],
+      ["das Bad", "bath"],
+      ["die Seife", "soap"],
+      ["das Shampoo", "shampoo"],
+      ["die Zahnbürste", "toothbrush"],
+      ["die Zahnpasta", "toothpaste"],
+      ["das Handtuch", "towel"],
+      ["die Toilette", "toilet"],
+      ["das Waschbecken", "sink"],
+      ["der Spiegel", "mirror"]
+    ]
+  },
+  {
+    "title": "🚌 Transport",
+    "words": [
+      ["die U-Bahn", "subway"],
+      ["die S-Bahn", "urban train"],
+      ["das Fahrrad", "bicycle"],
+      ["das Motorrad", "motorcycle"],
+      ["der LKW", "truck"],
+      ["das Taxi", "taxi"],
+      ["die Haltestelle", "stop"],
+      ["die Fahrkarte", "ticket"],
+      ["die Verspätung", "delay"],
+      ["die Richtung", "direction"]
+    ]
+  },
+  {
+    "title": "🎉 Celebrations",
+    "words": [
+      ["der Geburtstag", "birthday"],
+      ["das Geschenk", "gift"],
+      ["die Party", "party"],
+      ["das Fest", "festival"],
+      ["das Weihnachten", "Christmas"],
+      ["das Neujahr", "New Year"],
+      ["der Feiertag", "holiday"],
+      ["die Hochzeit", "wedding"],
+      ["der Gast", "guest"],
+      ["die Einladung", "invitation"]
+    ]
+  },
+  {
+    "title": "🏠 Furniture",
+    "words": [
+      ["das Bett", "bed"],
+      ["die Lampe", "lamp"],
+      ["der Schrank", "wardrobe"],
+      ["der Teppich", "carpet"],
+      ["die Kommode", "dresser"],
+      ["das Sofa", "sofa"],
+      ["der Spiegel", "mirror"],
+      ["der Fernseher", "TV"],
+      ["der Vorhang", "curtain"],
+      ["der Kühlschrank", "refrigerator"]
+    ]
+  },
+  {
+    "title": "🚗 Transportation",
+    "words": [
+      ["das Auto", "car"],
+      ["das Fahrrad", "bicycle"],
+      ["der Zug", "train"],
+      ["das Flugzeug", "airplane"],
+      ["das Taxi", "taxi"],
+      ["der Bus", "bus"],
+      ["das Schiff", "ship"],
+      ["das Motorrad", "motorcycle"],
+      ["die U-Bahn", "subway"],
+      ["die Straßenbahn", "tram"]
+    ]
+  },
+  {
+    "title": "👪 Family",
+    "words": [
+      ["die Mutter", "mother"],
+      ["der Vater", "father"],
+      ["die Schwester", "sister"],
+      ["der Bruder", "brother"],
+      ["das Kind", "child"],
+      ["die Großmutter", "grandmother"],
+      ["der Großvater", "grandfather"],
+      ["die Tante", "aunt"],
+      ["der Onkel", "uncle"],
+      ["der Cousin", "cousin (male)"]
+    ]
+  },
+  {
+    "title": "📚 Education",
+    "words": [
+      ["die Schule", "school"],
+      ["die Universität", "university"],
+      ["der Lehrer", "teacher (male)"],
+      ["die Lehrerin", "teacher (female)"],
+      ["der Schüler", "student (male)"],
+      ["die Schülerin", "student (female)"],
+      ["das Klassenzimmer", "classroom"],
+      ["die Prüfung", "exam"],
+      ["das Zeugnis", "report card"],
+      ["das Buch", "book"]
+    ]
+  },
+  {
+    "title": "🏢 Work & Office",
+    "words": [
+      ["das Büro", "office"],
+      ["der Chef", "boss (male)"],
+      ["die Chefin", "boss (female)"],
+      ["der Kollege", "colleague (male)"],
+      ["die Kollegin", "colleague (female)"],
+      ["der Computer", "computer"],
+      ["das Telefon", "telephone"],
+      ["die E-Mail", "email"],
+      ["der Vertrag", "contract"],
+      ["die Besprechung", "meeting"]
+    ]
+  },
+  {
+    "title": "🍳 Kitchen",
+    "words": [
+      ["der Herd", "stove"],
+      ["der Ofen", "oven"],
+      ["der Kühlschrank", "refrigerator"],
+      ["die Spüle", "sink"],
+      ["der Teller", "plate"],
+      ["das Glas", "glass"],
+      ["das Messer", "knife"],
+      ["die Gabel", "fork"],
+      ["der Löffel", "spoon"],
+      ["der Topf", "pot"]
+    ]
+  },
+  {
+    "title": "🌿 Nature",
+    "words": [
+      ["der Baum", "tree"],
+      ["die Blume", "flower"],
+      ["der Fluss", "river"],
+      ["der Berg", "mountain"],
+      ["der See", "lake"],
+      ["das Gras", "grass"],
+      ["der Wald", "forest"],
+      ["der Himmel", "sky"],
+      ["die Erde", "earth"],
+      ["der Stein", "stone"]
+    ]
+  },
+  {
+    "title": "⚽ Sports",
+    "words": [
+      ["der Fußball", "soccer"],
+      ["das Tennis", "tennis"],
+      ["das Schwimmen", "swimming"],
+      ["das Laufen", "running"],
+      ["das Radfahren", "cycling"],
+      ["der Ball", "ball"],
+      ["das Spiel", "game"],
+      ["der Trainer", "coach"],
+      ["die Mannschaft", "team"],
+      ["das Tor", "goal"]
+    ]
+  },
+  {
+    "title": "🎉 Celebrations",
+    "words": [
+      ["der Geburtstag", "birthday"],
+      ["das Geschenk", "gift"],
+      ["die Party", "party"],
+      ["das Fest", "festival"],
+      ["die Hochzeit", "wedding"],
+      ["der Feiertag", "holiday"],
+      ["das Feuerwerk", "fireworks"],
+      ["die Kerze", "candle"],
+      ["der Kuchen", "cake"],
+      ["die Einladung", "invitation"]
+    ]
+  },
+  {
+    "title": "💡 Technology",
+    "words": [
+      ["das Handy", "mobile phone"],
+      ["der Computer", "computer"],
+      ["das Internet", "internet"],
+      ["die App", "app"],
+      ["das Programm", "program"],
+      ["die Webseite", "website"],
+      ["der Bildschirm", "screen"],
+      ["die Tastatur", "keyboard"],
+      ["die Maus", "mouse"],
+      ["das Passwort", "password"]
+    ]
+  },
+  {
+    "title": "🧍 Body Parts",
+    "words": [
+      ["der Kopf", "head"],
+      ["die Hand", "hand"],
+      ["der Fuß", "foot"],
+      ["das Bein", "leg"],
+      ["der Arm", "arm"],
+      ["das Auge", "eye"],
+      ["das Ohr", "ear"],
+      ["die Nase", "nose"],
+      ["der Mund", "mouth"],
+      ["der Bauch", "belly"]
+    ]
+  },
+  {
+    "title": "🌦 Weather",
+    "words": [
+      ["die Sonne", "sun"],
+      ["der Regen", "rain"],
+      ["der Schnee", "snow"],
+      ["der Wind", "wind"],
+      ["die Wolke", "cloud"],
+      ["der Sturm", "storm"],
+      ["das Gewitter", "thunderstorm"],
+      ["heiß", "hot"],
+      ["kalt", "cold"],
+      ["nass", "wet"]
+    ]
+  },
+  {
+    "title": "🧠 Feelings",
+    "words": [
+      ["glücklich", "happy"],
+      ["traurig", "sad"],
+      ["wütend", "angry"],
+      ["müde", "tired"],
+      ["gestresst", "stressed"],
+      ["entspannt", "relaxed"],
+      ["verliebt", "in love"],
+      ["überrascht", "surprised"],
+      ["ängstlich", "anxious"],
+      ["zufrieden", "content"]
+    ]
+  },
+  {
+    "title": "🧹 Household Chores",
+    "words": [
+      ["putzen", "to clean"],
+      ["kochen", "to cook"],
+      ["waschen", "to wash"],
+      ["fegen", "to sweep"],
+      ["staubsaugen", "to vacuum"],
+      ["bügeln", "to iron"],
+      ["spülen", "to wash dishes"],
+      ["aufräumen", "to tidy up"],
+      ["abstauben", "to dust"],
+      ["wischen", "to mop"]
+    ]
+  },
+  {
+    "title": "💬 Useful Phrases",
+    "words": [
+      ["Wie heißt du?", "What's your name?"],
+      ["Ich heiße...", "My name is..."],
+      ["Woher kommst du?", "Where are you from?"],
+      ["Ich komme aus...", "I come from..."],
+      ["Wie alt bist du?", "How old are you?"],
+      ["Ich bin ... Jahre alt", "I am ... years old"],
+      ["Ich spreche kein Deutsch", "I don’t speak German"],
+      ["Können Sie das bitte wiederholen?", "Can you repeat that please?"],
+      ["Was bedeutet das?", "What does that mean?"],
+      ["Ich habe eine Frage", "I have a question"]
+    ]
+  },
+  {
+    "title": "📍 Locations",
+    "words": [
+      ["die Post", "post office"],
+      ["die Apotheke", "pharmacy"],
+      ["die Bank", "bank"],
+      ["die Universität", "university"],
+      ["der Flughafen", "airport"],
+      ["die Bushaltestelle", "bus stop"],
+      ["das Einkaufszentrum", "shopping mall"],
+      ["das Kino", "cinema"],
+      ["der Zoo", "zoo"],
+      ["die Bäckerei", "bakery"]
+    ]
+  },
+  {
+    "title": "📖 School Items",
+    "words": [
+      ["das Buch", "book"],
+      ["der Stift", "pen"],
+      ["der Bleistift", "pencil"],
+      ["das Heft", "notebook"],
+      ["die Schultasche", "school bag"],
+      ["das Lineal", "ruler"],
+      ["der Radiergummi", "eraser"],
+      ["der Spitzer", "sharpener"],
+      ["die Tafel", "blackboard"],
+      ["das Papier", "paper"]
+    ]
+  },
+  {
+    "title": "🧳 Travel",
+    "words": [
+      ["die Reise", "trip"],
+      ["das Gepäck", "luggage"],
+      ["der Pass", "passport"],
+      ["das Visum", "visa"],
+      ["das Flugzeug", "airplane"],
+      ["das Schiff", "ship"],
+      ["der Fahrplan", "timetable"],
+      ["die Abfahrt", "departure"],
+      ["die Ankunft", "arrival"],
+      ["die Grenze", "border"]
+    ]
+  },
+  {
+    "title": "🎨 Colors",
+    "words": [
+      ["rot", "red"],
+      ["blau", "blue"],
+      ["grün", "green"],
+      ["gelb", "yellow"],
+      ["schwarz", "black"],
+      ["weiß", "white"],
+      ["grau", "gray"],
+      ["braun", "brown"],
+      ["rosa", "pink"],
+      ["orange", "orange"]
+    ]
+  },
+  {
+    "title": "💰 Money & Banking",
+    "words": [
+      ["das Geld", "money"],
+      ["die Münze", "coin"],
+      ["der Schein", "bill / note"],
+      ["die Kreditkarte", "credit card"],
+      ["der Bankautomat", "ATM"],
+      ["das Konto", "account"],
+      ["die Überweisung", "transfer"],
+      ["die Rechnung", "invoice"],
+      ["der Wechselkurs", "exchange rate"],
+      ["bezahlen", "to pay"]
+    ]
+  },
+  {
+    "title": "🛒 Shopping",
+    "words": [
+      ["das Geschäft", "shop"],
+      ["der Markt", "market"],
+      ["der Verkäufer", "seller (male)"],
+      ["die Verkäuferin", "seller (female)"],
+      ["der Preis", "price"],
+      ["die Rechnung", "bill"],
+      ["das Geld", "money"],
+      ["die Tasche", "bag"],
+      ["das Produkt", "product"],
+      ["die Kasse", "cash register"]
+    ]
+  },
+  {
+    "title": "🍂 Seasons & Weather",
+    "words": [
+      ["der Frühling", "spring"],
+      ["der Sommer", "summer"],
+      ["der Herbst", "autumn"],
+      ["der Winter", "winter"],
+      ["die Sonne", "sun"],
+      ["der Regen", "rain"],
+      ["der Schnee", "snow"],
+      ["der Wind", "wind"],
+      ["die Wolke", "cloud"],
+      ["das Gewitter", "thunderstorm"]
+    ]
+  },
+  {
+    "title": "🏥 Health & Body",
+    "words": [
+      ["der Arzt", "doctor (male)"],
+      ["die Ärztin", "doctor (female)"],
+      ["das Krankenhaus", "hospital"],
+      ["die Krankheit", "illness"],
+      ["die Medizin", "medicine"],
+      ["das Medikament", "medication"],
+      ["der Schmerz", "pain"],
+      ["der Kopf", "head"],
+      ["der Arm", "arm"],
+      ["das Bein", "leg"]
+    ]
+  },
+  {
+    "title": "🎨 Arts & Culture",
+    "words": [
+      ["das Bild", "picture"],
+      ["die Musik", "music"],
+      ["das Theater", "theater"],
+      ["der Film", "movie"],
+      ["das Buch", "book"],
+      ["der Künstler", "artist (male)"],
+      ["die Künstlerin", "artist (female)"],
+      ["das Museum", "museum"],
+      ["die Galerie", "gallery"],
+      ["das Lied", "song"]
+    ]
+  },
+  {
+    "title": "🧳 Travel",
+    "words": [
+      ["das Ticket", "ticket"],
+      ["der Pass", "passport"],
+      ["die Reise", "journey/trip"],
+      ["das Gepäck", "luggage"],
+      ["der Flughafen", "airport"],
+      ["das Hotel", "hotel"],
+      ["die Reservierung", "reservation"],
+      ["die Ankunft", "arrival"],
+      ["die Abfahrt", "departure"],
+      ["die Karte", "map"]
+    ]
+  },
+  {
+    "title": "🧰 Tools & Equipment",
+    "words": [
+      ["der Hammer", "hammer"],
+      ["der Schraubenzieher", "screwdriver"],
+      ["die Zange", "pliers"],
+      ["die Säge", "saw"],
+      ["der Nagel", "nail"],
+      ["die Schraube", "screw"],
+      ["die Bohrmaschine", "drill"],
+      ["der Schraubenschlüssel", "wrench"],
+      ["das Werkzeug", "tool"],
+      ["die Leiter", "ladder"]
+    ]
+  },
+  {
+    "title": "📱 Communication",
+    "words": [
+      ["das Telefon", "telephone"],
+      ["die Nachricht", "message"],
+      ["das Gespräch", "conversation"],
+      ["der Anruf", "call"],
+      ["die E-Mail", "email"],
+      ["die SMS", "text message"],
+      ["das Handy", "mobile phone"],
+      ["der Brief", "letter"],
+      ["die Post", "mail/post office"],
+      ["das Fax", "fax"]
+    ]
+  },
+  {
+    "title": "🌐 Environment",
+    "words": [
+      ["die Umwelt", "environment"],
+      ["die Natur", "nature"],
+      ["die Verschmutzung", "pollution"],
+      ["der Müll", "garbage"],
+      ["das Recycling", "recycling"],
+      ["das Wasser", "water"],
+      ["die Luft", "air"],
+      ["der Wald", "forest"],
+      ["das Tier", "animal"],
+      ["der Baum", "tree"]
+    ]
+  },
+  {
+    "title": "🏛 Government & Politics",
+    "words": [
+      ["die Regierung", "government"],
+      ["der Präsident", "president (male)"],
+      ["die Präsidentin", "president (female)"],
+      ["das Parlament", "parliament"],
+      ["das Gesetz", "law"],
+      ["die Wahl", "election"],
+      ["der Politiker", "politician (male)"],
+      ["die Politikerin", "politician (female)"],
+      ["die Demokratie", "democracy"],
+      ["die Freiheit", "freedom"]
+    ]
+  },
+  {
+    "title": "🕰 Time Expressions",
+    "words": [
+      ["heute", "today"],
+      ["morgen", "tomorrow"],
+      ["gestern", "yesterday"],
+      ["jetzt", "now"],
+      ["später", "later"],
+      ["bald", "soon"],
+      ["immer", "always"],
+      ["manchmal", "sometimes"],
+      ["nie", "never"],
+      ["oft", "often"]
+    ]
+  },
+  {
+    "title": "🎓 School & Education",
+    "words": [
+      ["die Schule", "school"],
+      ["der Lehrer", "teacher (male)"],
+      ["die Lehrerin", "teacher (female)"],
+      ["der Schüler", "student (male)"],
+      ["die Schülerin", "student (female)"],
+      ["das Klassenzimmer", "classroom"],
+      ["das Buch", "book"],
+      ["der Stift", "pen"],
+      ["die Tafel", "chalkboard"],
+      ["die Hausaufgabe", "homework"]
+    ]
+  },
+  {
+    "title": "💼 Office & Work",
+    "words": [
+      ["das Büro", "office"],
+      ["der Kollege", "colleague (male)"],
+      ["die Kollegin", "colleague (female)"],
+      ["der Chef", "boss (male)"],
+      ["die Chefin", "boss (female)"],
+      ["die Besprechung", "meeting"],
+      ["der Computer", "computer"],
+      ["die Tastatur", "keyboard"],
+      ["die Maus", "mouse"],
+      ["der Drucker", "printer"]
+    ]
+  },
+  {
+    "title": "💡 Ideas & Concepts",
+    "words": [
+      ["die Idee", "idea"],
+      ["das Problem", "problem"],
+      ["die Lösung", "solution"],
+      ["die Meinung", "opinion"],
+      ["die Frage", "question"],
+      ["die Antwort", "answer"],
+      ["die Wahrheit", "truth"],
+      ["die Lüge", "lie"],
+      ["der Gedanke", "thought"],
+      ["die Entscheidung", "decision"]
+    ]
+  },
+  {
+    "title": "🏃 Actions & Movement",
+    "words": [
+      ["laufen", "to run"],
+      ["springen", "to jump"],
+      ["fallen", "to fall"],
+      ["sitzen", "to sit"],
+      ["stehen", "to stand"],
+      ["liegen", "to lie (down)"],
+      ["fahren", "to drive"],
+      ["fliegen", "to fly"],
+      ["gehen", "to walk"],
+      ["rennen", "to sprint"]
+    ]
+  },
+  {
+    "title": "🧠 Emotions & States",
+    "words": [
+      ["glücklich", "happy"],
+      ["traurig", "sad"],
+      ["wütend", "angry"],
+      ["ängstlich", "anxious"],
+      ["müde", "tired"],
+      ["aufgeregt", "excited"],
+      ["ruhig", "calm"],
+      ["nervös", "nervous"],
+      ["verliebt", "in love"],
+      ["krank", "sick"]
+    ]
+  },
+  {
+    "title": "📏 Measurements & Quantities",
+    "words": [
+      ["viel", "a lot / much"],
+      ["wenig", "little / few"],
+      ["mehr", "more"],
+      ["weniger", "less"],
+      ["genug", "enough"],
+      ["ein bisschen", "a little bit"],
+      ["alle", "all"],
+      ["jeder", "every"],
+      ["keiner", "none"],
+      ["einige", "some"]
+    ]
+  },
+  {
+    "title": "💳 Money & Banking",
+    "words": [
+      ["das Konto", "account"],
+      ["die Bank", "bank"],
+      ["das Bargeld", "cash"],
+      ["die Kreditkarte", "credit card"],
+      ["die Münze", "coin"],
+      ["der Geldautomat", "ATM"],
+      ["das Einkommen", "income"],
+      ["die Ausgabe", "expense"],
+      ["die Überweisung", "transfer"],
+      ["der Scheck", "check"]
+    ]
+  },
+  {
+    "title": "🔧 Maintenance & Repair",
+    "words": [
+      ["reparieren", "to repair"],
+      ["putzen", "to clean"],
+      ["waschen", "to wash"],
+      ["wechseln", "to change"],
+      ["öffnen", "to open"],
+      ["schließen", "to close"],
+      ["bauen", "to build"],
+      ["zerbrechen", "to break"],
+      ["funktionieren", "to function"],
+      ["kaputt", "broken"]
+    ]
+  },
+  {
+    "title": "📚 Grammar Essentials",
+    "words": [
+      ["der Artikel", "article"],
+      ["das Substantiv", "noun"],
+      ["das Verb", "verb"],
+      ["das Adjektiv", "adjective"],
+      ["das Adverb", "adverb"],
+      ["die Präposition", "preposition"],
+      ["das Pronomen", "pronoun"],
+      ["die Konjugation", "conjugation"],
+      ["die Zeitform", "tense"],
+      ["der Satz", "sentence"]
+    ]
+  },
+  {
+    "title": "📢 Expressions & Phrases",
+    "words": [
+      ["Wie heißt du?", "What’s your name?"],
+      ["Ich heiße ...", "My name is ..."],
+      ["Wie alt bist du?", "How old are you?"],
+      ["Ich bin ... Jahre alt", "I am ... years old"],
+      ["Wo wohnst du?", "Where do you live?"],
+      ["Ich wohne in ...", "I live in ..."],
+      ["Wie spät ist es?", "What time is it?"],
+      ["Ich verstehe", "I understand"],
+      ["Ich weiß es nicht", "I don’t know"],
+      ["Können Sie mir helfen?", "Can you help me?"]
+    ]
+  },
+  {
+    "title": "🧍‍♂️ Human Body",
+    "words": [
+      ["der Kopf", "head"],
+      ["die Hand", "hand"],
+      ["der Arm", "arm"],
+      ["das Bein", "leg"],
+      ["das Auge", "eye"],
+      ["das Ohr", "ear"],
+      ["die Nase", "nose"],
+      ["der Mund", "mouth"],
+      ["der Fuß", "foot"],
+      ["das Herz", "heart"]
+    ]
+  },
+  {
+    "title": "👕 Clothing",
+    "words": [
+      ["das Hemd", "shirt"],
+      ["die Hose", "pants"],
+      ["das Kleid", "dress"],
+      ["die Jacke", "jacket"],
+      ["der Mantel", "coat"],
+      ["die Schuhe", "shoes"],
+      ["die Socken", "socks"],
+      ["der Hut", "hat"],
+      ["der Pullover", "sweater"],
+      ["die Bluse", "blouse"]
+    ]
+  },
+  {
+    "title": "🏠 Around the House",
+    "words": [
+      ["das Wohnzimmer", "living room"],
+      ["die Küche", "kitchen"],
+      ["das Schlafzimmer", "bedroom"],
+      ["das Badezimmer", "bathroom"],
+      ["die Tür", "door"],
+      ["das Fenster", "window"],
+      ["der Boden", "floor"],
+      ["die Wand", "wall"],
+      ["die Decke", "ceiling / blanket"],
+      ["die Lampe", "lamp"]
+    ]
+  },
+  {
+    "title": "🛏 Home Objects",
+    "words": [
+      ["der Tisch", "table"],
+      ["der Stuhl", "chair"],
+      ["das Sofa", "sofa"],
+      ["das Bett", "bed"],
+      ["der Spiegel", "mirror"],
+      ["der Schrank", "cabinet"],
+      ["der Teppich", "carpet"],
+      ["das Regal", "shelf"],
+      ["die Uhr", "clock"],
+      ["der Fernseher", "TV"]
+    ]
+  },
+  {
+    "title": "🌳 Nature & Outdoors",
+    "words": [
+      ["der Baum", "tree"],
+      ["die Blume", "flower"],
+      ["das Gras", "grass"],
+      ["der Himmel", "sky"],
+      ["die Sonne", "sun"],
+      ["der Mond", "moon"],
+      ["die Sterne", "stars"],
+      ["der Fluss", "river"],
+      ["der Berg", "mountain"],
+      ["der Wald", "forest"]
+    ]
+  },
+  {
+    "title": "🌦 Weather",
+    "words": [
+      ["der Regen", "rain"],
+      ["der Schnee", "snow"],
+      ["die Wolke", "cloud"],
+      ["die Sonne", "sun"],
+      ["der Wind", "wind"],
+      ["der Sturm", "storm"],
+      ["das Gewitter", "thunderstorm"],
+      ["der Nebel", "fog"],
+      ["die Hitze", "heat"],
+      ["die Kälte", "cold"]
+    ]
+  },
+  {
+    "title": "📞 Communication",
+    "words": [
+      ["sprechen", "to speak"],
+      ["hören", "to hear"],
+      ["lesen", "to read"],
+      ["schreiben", "to write"],
+      ["sagen", "to say"],
+      ["erzählen", "to tell"],
+      ["rufen", "to call"],
+      ["fragen", "to ask"],
+      ["antworten", "to answer"],
+      ["verstehen", "to understand"]
+    ]
+  },
+  {
+    "title": "🛍 Shopping",
+    "words": [
+      ["der Preis", "price"],
+      ["das Geld", "money"],
+      ["der Verkäufer", "salesperson"],
+      ["die Kasse", "checkout"],
+      ["der Einkauf", "purchase"],
+      ["das Angebot", "offer"],
+      ["der Rabatt", "discount"],
+      ["die Quittung", "receipt"],
+      ["die Tüte", "bag"],
+      ["die Größe", "size"]
+    ]
+  },
+  {
+    "title": "🧼 Hygiene & Personal Care",
+    "words": [
+      ["die Seife", "soap"],
+      ["das Shampoo", "shampoo"],
+      ["die Zahnbürste", "toothbrush"],
+      ["die Zahnpasta", "toothpaste"],
+      ["das Handtuch", "towel"],
+      ["die Dusche", "shower"],
+      ["das Bad", "bath"],
+      ["die Bürste", "brush"],
+      ["der Kamm", "comb"],
+      ["das Toilettenpapier", "toilet paper"]
+    ]
+  },
+  {
+    "title": "🚑 Health & Safety",
+    "words": [
+      ["der Arzt", "doctor (male)"],
+      ["die Ärztin", "doctor (female)"],
+      ["das Krankenhaus", "hospital"],
+      ["die Apotheke", "pharmacy"],
+      ["die Medizin", "medicine"],
+      ["die Tablette", "pill"],
+      ["die Verletzung", "injury"],
+      ["die Krankheit", "illness"],
+      ["das Fieber", "fever"],
+      ["der Notfall", "emergency"]
+    ]
+  },
+  {
+    "title": "🏫 Education",
+    "words": [
+      ["die Schule", "school"],
+      ["die Universität", "university"],
+      ["der Lehrer", "teacher (male)"],
+      ["die Lehrerin", "teacher (female)"],
+      ["der Schüler", "student (male)"],
+      ["die Schülerin", "student (female)"],
+      ["das Buch", "book"],
+      ["der Stift", "pen"],
+      ["das Heft", "notebook"],
+      ["das Klassenzimmer", "classroom"]
+    ]
+  },
+  {
+    "title": "💻 Technology",
+    "words": [
+      ["der Computer", "computer"],
+      ["der Laptop", "laptop"],
+      ["das Handy", "mobile phone"],
+      ["die Tastatur", "keyboard"],
+      ["die Maus", "mouse"],
+      ["der Bildschirm", "screen"],
+      ["das Internet", "internet"],
+      ["die App", "app"],
+      ["die Datei", "file"],
+      ["das Passwort", "password"]
+    ]
+  },
+  {
+    "title": "🎨 Colors",
+    "words": [
+      ["rot", "red"],
+      ["blau", "blue"],
+      ["grün", "green"],
+      ["gelb", "yellow"],
+      ["orange", "orange"],
+      ["lila", "purple"],
+      ["rosa", "pink"],
+      ["braun", "brown"],
+      ["grau", "gray"],
+      ["schwarz", "black"]
+    ]
+  },
+  {
+    "title": "🔢 Ordinal Numbers",
+    "words": [
+      ["erste", "first"],
+      ["zweite", "second"],
+      ["dritte", "third"],
+      ["vierte", "fourth"],
+      ["fünfte", "fifth"],
+      ["sechste", "sixth"],
+      ["siebte", "seventh"],
+      ["achte", "eighth"],
+      ["neunte", "ninth"],
+      ["zehnte", "tenth"]
+    ]
+  },
+  {
+    "title": "🚗 Transportation",
+    "words": [
+      ["das Auto", "car"],
+      ["der Bus", "bus"],
+      ["der Zug", "train"],
+      ["das Fahrrad", "bicycle"],
+      ["das Flugzeug", "airplane"],
+      ["das Schiff", "ship"],
+      ["das Taxi", "taxi"],
+      ["die Straße", "road"],
+      ["die Ampel", "traffic light"],
+      ["der Fahrer", "driver"]
+    ]
+  },
+  {
+    "title": "🧭 Directions",
+    "words": [
+      ["links", "left"],
+      ["rechts", "right"],
+      ["geradeaus", "straight ahead"],
+      ["zurück", "back"],
+      ["oben", "up"],
+      ["unten", "down"],
+      ["neben", "next to"],
+      ["hinter", "behind"],
+      ["vor", "in front of"],
+      ["zwischen", "between"]
+    ]
+  },
+  {
+    "title": "⌚ Time Expressions",
+    "words": [
+      ["die Uhr", "clock"],
+      ["die Minute", "minute"],
+      ["die Stunde", "hour"],
+      ["die Woche", "week"],
+      ["der Monat", "month"],
+      ["das Jahr", "year"],
+      ["gestern", "yesterday"],
+      ["heute", "today"],
+      ["morgen", "tomorrow"],
+      ["jetzt", "now"]
+    ]
+  },
+  {
+    "title": "🎉 Celebrations",
+    "words": [
+      ["der Geburtstag", "birthday"],
+      ["die Hochzeit", "wedding"],
+      ["Weihnachten", "Christmas"],
+      ["Ostern", "Easter"],
+      ["Neujahr", "New Year"],
+      ["das Fest", "festival"],
+      ["die Party", "party"],
+      ["das Geschenk", "gift"],
+      ["die Einladung", "invitation"],
+      ["der Feiertag", "holiday"]
+    ]
+  },
+  {
+    "title": "💬 Expressions",
+    "words": [
+      ["Guten Morgen", "Good morning"],
+      ["Guten Tag", "Good day"],
+      ["Guten Abend", "Good evening"],
+      ["Gute Nacht", "Good night"],
+      ["Wie geht’s?", "How are you?"],
+      ["Mir geht’s gut", "I’m fine"],
+      ["Vielen Dank", "Many thanks"],
+      ["Bitte schön", "You’re welcome"],
+      ["Keine Ahnung", "No idea"],
+      ["Bis später", "See you later"]
+    ]
+  },
+  {
+    "title": "⚠️ Emergency Phrases",
+    "words": [
+      ["Hilfe!", "Help!"],
+      ["Rufen Sie die Polizei!", "Call the police!"],
+      ["Feuer!", "Fire!"],
+      ["Ich bin verletzt", "I am injured"],
+      ["Ich bin krank", "I am sick"],
+      ["Wo ist das Krankenhaus?", "Where is the hospital?"],
+      ["Ich brauche einen Arzt", "I need a doctor"],
+      ["Ich habe mich verlaufen", "I am lost"],
+      ["Gibt es hier WLAN?", "Is there Wi-Fi here?"],
+      ["Ich habe meine Tasche verloren", "I lost my bag"]
+    ]
+  },
+  {
+    "title": "📐 Shapes",
+    "words": [
+      ["der Kreis", "circle"],
+      ["das Quadrat", "square"],
+      ["das Dreieck", "triangle"],
+      ["das Rechteck", "rectangle"],
+      ["das Oval", "oval"],
+      ["das Herz", "heart"],
+      ["der Stern", "star"],
+      ["das Sechseck", "hexagon"],
+      ["die Linie", "line"],
+      ["der Punkt", "dot / point"]
+    ]
+  },
+  {
+    "title": "📖 School Subjects",
+    "words": [
+      ["Mathematik", "mathematics"],
+      ["Biologie", "biology"],
+      ["Chemie", "chemistry"],
+      ["Physik", "physics"],
+      ["Geschichte", "history"],
+      ["Geografie", "geography"],
+      ["Deutsch", "German"],
+      ["Englisch", "English"],
+      ["Sport", "physical education"],
+      ["Kunst", "art"]
+    ]
+  },
+  {
+    "title": "🏥 Health & Body",
+    "words": [
+      ["der Kopf", "head"],
+      ["die Hand", "hand"],
+      ["das Bein", "leg"],
+      ["der Arm", "arm"],
+      ["das Auge", "eye"],
+      ["das Ohr", "ear"],
+      ["die Nase", "nose"],
+      ["der Mund", "mouth"],
+      ["der Bauch", "belly"],
+      ["der Rücken", "back"]
+    ]
+  },
+  {
+    "title": "🔧 Tools",
+    "words": [
+      ["der Hammer", "hammer"],
+      ["der Schraubenzieher", "screwdriver"],
+      ["die Zange", "pliers"],
+      ["die Säge", "saw"],
+      ["der Bohrer", "drill"],
+      ["der Schraubenschlüssel", "wrench"],
+      ["das Lineal", "ruler"],
+      ["das Maßband", "measuring tape"],
+      ["die Wasserwaage", "spirit level"],
+      ["der Nagel", "nail"]
+    ]
+  },
+  {
+    "title": "🧼 Hygiene",
+    "words": [
+      ["die Zahnbürste", "toothbrush"],
+      ["die Zahnpasta", "toothpaste"],
+      ["die Seife", "soap"],
+      ["das Shampoo", "shampoo"],
+      ["das Handtuch", "towel"],
+      ["die Dusche", "shower"],
+      ["die Badewanne", "bathtub"],
+      ["das Toilettenpapier", "toilet paper"],
+      ["der Kamm", "comb"],
+      ["die Bürste", "brush"]
+    ]
+  },
+  {
+    "title": "🎶 Music & Instruments",
+    "words": [
+      ["die Musik", "music"],
+      ["das Lied", "song"],
+      ["die Gitarre", "guitar"],
+      ["das Klavier", "piano"],
+      ["die Trommel", "drum"],
+      ["die Geige", "violin"],
+      ["die Flöte", "flute"],
+      ["die Stimme", "voice"],
+      ["das Mikrofon", "microphone"],
+      ["der Sänger", "singer (male)"]
+    ]
+  },
+  {
+    "title": "👨‍👩‍👧‍👦 People & Relationships",
+    "words": [
+      ["der Vater", "father"],
+      ["die Mutter", "mother"],
+      ["der Bruder", "brother"],
+      ["die Schwester", "sister"],
+      ["der Sohn", "son"],
+      ["die Tochter", "daughter"],
+      ["der Freund", "friend (male)"],
+      ["die Freundin", "friend (female)"],
+      ["die Familie", "family"],
+      ["die Eltern", "parents"]
+    ]
+  },
+  {
+    "title": "🏘️ Home & Furniture",
+    "words": [
+      ["die Tür", "door"],
+      ["das Fenster", "window"],
+      ["das Bett", "bed"],
+      ["der Schrank", "closet"],
+      ["der Teppich", "carpet"],
+      ["der Sessel", "armchair"],
+      ["die Lampe", "lamp"],
+      ["der Spiegel", "mirror"],
+      ["die Couch", "couch"],
+      ["der Fernseher", "TV"]
+    ]
+  },
+  {
+    "title": "📦 Materials",
+    "words": [
+      ["das Holz", "wood"],
+      ["das Metall", "metal"],
+      ["der Kunststoff", "plastic"],
+      ["das Glas", "glass"],
+      ["das Papier", "paper"],
+      ["der Stein", "stone"],
+      ["das Leder", "leather"],
+      ["der Stoff", "fabric"],
+      ["das Gummi", "rubber"],
+      ["das Kupfer", "copper"]
+    ]
+  },
+  {
+    "title": "📈 Business & Office",
+    "words": [
+      ["das Büro", "office"],
+      ["der Chef", "boss"],
+      ["die Besprechung", "meeting"],
+      ["der Bericht", "report"],
+      ["die Präsentation", "presentation"],
+      ["der Kollege", "colleague (male)"],
+      ["die Kollegin", "colleague (female)"],
+      ["die Firma", "company"],
+      ["der Vertrag", "contract"],
+      ["die Unterschrift", "signature"]
+    ]
+  }
+]

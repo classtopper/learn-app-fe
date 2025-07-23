@@ -1,0 +1,12 @@
+.designer-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.designer-page-container .h1-text {
+    font-weight: bold !important;
+    color: #073a6d !important;
+    padding-bottom: 30px;
+  }

@@ -1,0 +1,71 @@
+/* src/components/QuizBoxGrid.css */
+.quiz-box-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.quiz-box {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.quiz-box:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+
+/* Color classes */
+.quiz-box-color-1 {
+    background-color: #75af36;
+}
+
+.quiz-box-color-2 {
+    background-color: #cc5e6c;
+}
+
+.quiz-box-color-3 {
+    background-color: #4a90e2;
+}
+
+.quiz-box-color-4 {
+    background-color: #cea126;
+}
+
+.quiz-box-color-5 {
+    background-color: #aa3030;
+}
+
+.quiz-box-color-6 {
+    background-color: #938f1e;
+}
+
+.quiz-box-color-7 {
+    background-color: #bbb618;
+}
+
+.quiz-box-color-8 {
+    background-color: #1e6093;
+}
+
+.quiz-box-color-9 {
+    background-color: #1e9376;
+}
+
+@media (max-width: 1033px) {
+    .quiz-box-grid {
+        grid-template-columns: 1fr;
+    }
+}

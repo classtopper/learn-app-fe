@@ -1,0 +1,16 @@
+# Allow all pages except specific directories
+User-agent: *
+Allow: /
+
+# Block directories from being crawled
+Disallow: /cgi-bin/
+Disallow: /build/
+Disallow: /content.alphatutor.org/
+Disallow: /__MACOSX/
+Disallow: /.well-known/
+
+# Host
+Host: https://www.alphatutor.org
+
+# Sitemaps
+Sitemap: https://www.alphatutor.org/sitemap.xml

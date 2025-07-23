@@ -1,0 +1,116 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    background-color: #e9ebec;
+    padding: 7px;
+    width: 200px;
+    font-size: 15px;
+    border-right: 1px solid #f1f1f1;
+    overflow-y: auto;  
+    box-sizing: border-box;
+    position: fixed;  
+    height: calc(100vh - 88px);  
+    top: 83px;  
+    left: 0;
+    bottom: 0;
+}
+.sidebar-hide {
+    display: none;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin: -1px 0;
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar li:hover {
+    background-color: #000000;
+    color: white;
+    border-radius: 0px;
+}
+
+.sidebar li.active {
+    background-color: #046363;
+    color: white;
+    border-radius: 0px;
+}
+
+.side-hamburger {
+    display: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.side-hamburger-home {
+    display: none;
+}
+
+.side-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 83px;
+    right: 20px;
+    background-color: #000000;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 4px;
+    z-index: 1000;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.side-dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-dropdown-menu li {
+    padding: 1px;
+    margin: 2px 0;
+    cursor: pointer;
+}
+
+.side-dropdown-menu li.active {
+    background-color: #f16806;
+}
+
+.side-dropdown-menu li:hover {
+    background-color: #913194;
+    color: white;
+ 
+}
+
+.side-dropdown-menu.open {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .side-hamburger {
+        font-size: 15px;
+        cursor: pointer;
+        padding: 0;
+        width: 19px;
+        height: 25px;
+        position: fixed; 
+        top: 85px;
+        right: 0;
+        z-index: 1001; 
+        background-color: #e7e9eb; 
+        display: flex;
+        justify-content: center;
+        border-radius: 1px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}

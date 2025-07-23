@@ -1,0 +1,18 @@
+/* src/components/Ads.css */
+.ads {
+    background-color: #ffffff;
+    padding: 15px;
+    width: 200px;
+    border-left: 1px solid #f1f1f1;
+    padding-top: 89px; 
+}
+
+.ads-hide {
+   display: none;
+}
+
+@media (max-width: 768px) {
+    .ads {
+        display: none;
+    }
+}

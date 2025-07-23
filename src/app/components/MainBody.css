@@ -1,0 +1,262 @@
+/* src/components/MainBody.css */
+
+.main-body-bg-white {
+    background-color: #fff !important;
+    color: #000 !important;
+    line-height: 2;
+    padding-left: 230px;
+    padding-right: 20px;
+    min-height: 1100px;
+    width: 100%; 
+    box-sizing: border-box;
+    align-items: flex-start;
+    padding-top: 88px; 
+}
+
+.page-title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Stack title and hr vertically */
+    align-items: flex-start; /* Align items to the left */
+    border-bottom: 1px solid #62b410;
+    margin-bottom: 20px;
+}
+
+.converter-color {
+    background-color: #f8f2f2 !important;
+}
+
+
+.page-title {
+    margin: 0; 
+    margin-top: -25px;
+}
+
+
+.main-body-bg-quiz {
+    background-color: #fff !important;
+    padding-top: 90px; 
+}
+
+.main-body h1 {
+    color: #fff !important;
+    font-size: 2em;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-body-bg-white h1 {
+    color: #000 !important;
+    font-size: 40px;
+}
+
+.main-body-bg-quiz h1 {
+    color: #000 !important;
+    font-size: 40px !important;
+}
+
+.main-body h1 span {
+    color: #1450dc;
+}
+
+.main-body p {
+    margin-top: 0.8em;
+    margin-bottom: 1.2em;
+}
+
+.main-body h2 {
+    color: #000!important;
+    font-size: 28px;
+    margin: 0px 0;
+    font-weight: 400px;
+}
+
+.main-body h3 {
+    color: #000!important;
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: 400px;
+}
+
+.body-content {
+    margin-bottom: 20px;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 20px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+    padding-top: 0;
+    height: 36px;
+}
+
+.nav-top-padding {
+    margin-top: 0px;
+}
+
+.main-title {
+    color: #fff !important;
+    font-size: 15px;
+    text-align: center;
+}
+
+.navigation-buttons button {
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #073a6d;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 70px;
+}
+
+.navigation-buttons-bottom {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.navigation-buttons button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.navigation-buttons button:not(:disabled):hover {
+    background-color: #0056b3;
+}
+
+.content-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;  
+}
+
+ 
+@media (max-width: 1200px) {
+    .main-body-bg-white {
+        padding-left: 215px;
+        padding-right: 15px;
+        max-width: 100%;  
+    }
+
+    .navigation-buttons {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .main-body h1 {
+        font-size: 1.8em;
+    }
+
+    .main-body-bg-white h1 {
+        color: #000 !important;
+        font-size: 40px !important;
+    }
+
+    .main-body h2 {
+        font-size: 26px;
+    }
+    .main-body h3 {
+        font-size: 20px;
+    }
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    border-left: 4px solid #10b457;
+}
+code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #333;
+}
+.keyword {
+    color: #0000FF;  
+    font-weight: bold;
+}
+.method {
+    color: #a50dad;  
+}
+.string {
+    color: #008000;  
+}
+
+.value {
+    color: #c6782b;  
+}
+
+@media (max-width: 768px) {
+    .main-body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main-body-bg-white {
+        padding-left: 17px;
+        padding-right: 17px;
+        max-width: 100%;  
+    }
+
+    .navigation-buttons {
+        padding-right: 20px;
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .main-body-bg-white {
+        padding-left: 21px;
+        padding-right: 17px;
+        max-width: 100%;  
+    }
+
+    .navigation-buttons {
+        padding-right: 20px;
+        padding-left: 25px;
+    }
+
+    .main-body h1 {
+        font-size: 1.5em;
+    }
+
+    .main-body h2 {
+        font-size: 24px;
+    }
+
+    .main-body-bg-white h1 {
+        color: #000 !important;
+        font-size: 35px !important;
+    }
+
+    .main-body-bg-quiz h1 {
+        color: #000 !important;
+        font-size: 30px !important;
+    }
+
+    .main-body h3 {
+        font-size: 18px;
+    }
+
+    .main-title {
+        font-size: 13px !important;
+    }
+
+    code {
+        font-size: 15px;
+    }
+}
