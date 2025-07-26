@@ -43,16 +43,14 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-
   let navItems = [];
   let initialNavId = null;
+
   try {
-    // Fetch navbar items
     navItems = await fetchNavbar();
     const unwantedIds = [1123];
     navItems = navItems.filter((item: { id: number; }) => !unwantedIds.includes(item.id));
     initialNavId = navItems.length > 0 ? navItems[0].id : null;
-  
   } catch (error) {
     console.error("Failed to fetch navbar data:", error);
   }
@@ -66,20 +64,10 @@ export default async function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="robots" content="index, follow" />
-        <meta name="keywords" content="Generative AI, Java tutorials, Spring Boot, Flutter, Dart, Quarkus, dbdocs, PostgreSQL, Online Learning, Programming, Interview Questions, Quiz, Solved Issues, Web Development for beginners and experienced people" />
-        <meta name="description" content="AlphaTutor offers expert-led tutorials, tools, services, and design resources covering AI, Java, Spring Boot, Flutter, PostgreSQL, language learning, quizzes, interview prep, and more. Boost your skills with comprehensive guides and practical utilities." />
-        <meta property="og:title" content="AlphaTutor Online Tutorials" />
-        <meta property="og:description" content="Explore expert tutorials, development tools, design utilities, language courses, quizzes, and interview prep with AlphaTutor." />
-        <meta property="og:url" content="https://www.alphatutor.org" />
-        <meta property="og:image" content="https://www.alphatutor.org/og-image.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AlphaTutor Online Tutorials" />
-        <meta name="twitter:description" content="Learn AI, Java, Flutter, and more with AlphaTutor’s tutorials, plus access tools, design assets, language lessons, quizzes, and interview questions." />
-        <meta name="twitter:image" content="https://www.alphatutor.org/og-image.png" />
         <meta name="google-adsense-account" content="ca-pub-1281835575317626" />
         <link rel="canonical" href="https://www.alphatutor.org" />
-        
+
+        {/* Structured Data */}
         <Script id="organization-schema" type="application/ld+json" strategy="afterInteractive">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -95,6 +83,7 @@ export default async function RootLayout({
           })}
         </Script>
 
+        {/* GTM Consent Script */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -105,7 +94,6 @@ export default async function RootLayout({
                 const defaultConsent = JSON.parse(localStorage.getItem('defaultConsent'));
 
                 if (defaultConsent) {
-                  // Apply consent based on stored value
                   gtag('consent', 'default', {
                     'functionality_storage': defaultConsent.necessary ? 'granted' : 'denied',
                     'security_storage': defaultConsent.necessary ? 'granted' : 'denied',
@@ -116,7 +104,6 @@ export default async function RootLayout({
                     'analytics_storage': defaultConsent.analytics ? 'granted' : 'denied',
                   });
                 } else {
-                  // Retry after a short delay if defaultConsent isn't available yet
                   setTimeout(applyConsentFromLocalStorage, 500);
                 }
               }
@@ -124,6 +111,8 @@ export default async function RootLayout({
             `,
           }}
         />
+
+        {/* GTM Head */}
         <Script id="gtm-head" strategy="beforeInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -131,13 +120,15 @@ export default async function RootLayout({
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-KZG5QRPJ');`}
         </Script>
-        
       </head>
       <body className={inter.className}>
         <noscript>
-          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZG5QRPJ"
-            height="0" width="0" style={{ display: "none", visibility: "hidden" }}>
-          </iframe>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-KZG5QRPJ"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
         </noscript>
 
         <FlashProvider>

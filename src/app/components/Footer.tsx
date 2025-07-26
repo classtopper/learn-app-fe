@@ -70,10 +70,13 @@ const Footer: React.FC<FooterProps> = ({ navItems, setActiveNavId }) => {
         <div className="footer-section">
           <h3>About Us</h3>
           <p>
-            Welcome to AlphaTutor.org — your go-to platform for expert-led tutorials in Generative AI, Java, Spring Boot, Flutter, and more.
+            AlphaTutor.org is a comprehensive learning platform dedicated to empowering students, developers, and tech professionals through expert-led tutorials and hands-on resources. We specialize in cutting-edge topics such as Generative AI, Java, Spring Boot, Flutter, PostgreSQL, and more—helping you stay ahead in the fast-evolving world of technology.
           </p>
           <p>
-            Whether preparing for interviews or deep-diving into hands-on coding, AlphaTutor supports you at every step.
+            Our mission is to simplify complex concepts and provide practical, real-world solutions that fuel your personal and professional growth. Whether you&apos;re preparing for job interviews, building new skills, or exploring emerging tech, AlphaTutor offers a supportive environment to guide your journey.
+          </p>
+          <p>
+            With a focus on clarity, quality, and community, we aim to be your trusted resource for continuous learning and career advancement in software development and beyond.
           </p>
         </div>
 
