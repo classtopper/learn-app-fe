@@ -2,148 +2,155 @@
 
 "use client";
 
-import React, { useState, useEffect, useRef, useCallback } from 'react';
-import './Navbar.css';
-import { useRouter, usePathname } from 'next/navigation';
-import { fetchSidebar } from '@/utils/api';
-import Spinner from './Spinner';
+import React, {
+  useState,
+  useEffect,
+  useRef,
+  useCallback,
+  useMemo,
+  startTransition,
+} from "react";
+import "./Navbar.css";
+import { useRouter, usePathname } from "next/navigation";
+import { fetchSidebar } from "@/utils/api";
+import Spinner from "./Spinner";
 
-const formatTitleForUrl = (title: string) => {
-  return title
-    .replace(/#/g, 'sharp')
-    .replace(/\.net/gi, 'dotnet')
-    .replace(/\s+/g, '-')
+const formatTitleForUrl = (title: string) =>
+  title
+    .replace(/#/g, "sharp")
+    .replace(/\.net/gi, "dotnet")
+    .replace(/\s+/g, "-")
     .toLowerCase();
-};
 
 interface NavbarProps {
   navItems: { id: number; title: string }[];
   initialNavId: number | null;
 }
 
-const Navbar = ({ navItems, initialNavId }: NavbarProps) => {
-  const [state, setState] = useState({
-    menuOpen: false,
-    activeNavId: initialNavId,
-    loading: false,
-  });
+const Navbar: React.FC<NavbarProps> = ({ navItems, initialNavId }) => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [activeNavId, setActiveNavId] = useState(initialNavId);
+  const [loading, setLoading] = useState(false);
   const [isOverflowing, setIsOverflowing] = useState(false);
-  const [showLeftArrow, setShowLeftArrow] = useState(false); // Track if left arrow should be shown
+  const [showLeftArrow, setShowLeftArrow] = useState(false);
   const [isActiveTabInitialized, setIsActiveTabInitialized] = useState(false);
 
   const navRef = useRef<HTMLDivElement>(null);
   const navLinksContainerRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
-  const pathname = usePathname() || '';
+  const pathname = usePathname() || "";
 
-  // Detect if nav is overflowing
+  const currentPath = useMemo(() => pathname.split("/")[1] || "", [pathname]);
+  const filteredNavItems = useMemo(
+    () =>
+      navItems.filter(
+        (item) => ![1, 13, 14, 15, 23, 24, 25, 26].includes(item.id)
+      ),
+    [navItems]
+  );
+
+  // Check overflow on resize
   useEffect(() => {
     const checkOverflow = () => {
       const container = navLinksContainerRef.current;
       if (container) {
         setIsOverflowing(container.scrollWidth > container.clientWidth);
-        setShowLeftArrow(container.scrollLeft > 0); // Show left arrow if not scrolled to the far left
+        setShowLeftArrow(container.scrollLeft > 0);
       }
     };
     checkOverflow();
-    window.addEventListener('resize', checkOverflow);
-    return () => window.removeEventListener('resize', checkOverflow);
+    window.addEventListener("resize", checkOverflow);
+    return () => window.removeEventListener("resize", checkOverflow);
   }, []);
 
-  // Listen to scroll events to toggle the visibility of the left arrow
+  // Scroll event listener
   useEffect(() => {
-    const handleScroll = () => {
-      const container = navLinksContainerRef.current;
-      if (container) {
-        setShowLeftArrow(container.scrollLeft > 0); // Show the left arrow if scrolled away from the start
-      }
-    };
-
     const container = navLinksContainerRef.current;
-    if (container) {
-      container.addEventListener('scroll', handleScroll);
-    }
+    if (!container) return;
 
-    return () => {
-      if (container) {
-        container.removeEventListener('scroll', handleScroll);
-      }
-    };
+    const handleScroll = () => setShowLeftArrow(container.scrollLeft > 0);
+    container.addEventListener("scroll", handleScroll);
+    return () => container.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Scroll functionality for left and right arrows
-  const scrollLeft = () => {
-    if (navLinksContainerRef.current) {
-      navLinksContainerRef.current.scrollBy({ left: -150, behavior: 'smooth' });
-    }
-  };
-
-  const scrollRight = () => {
-    if (navLinksContainerRef.current) {
-      navLinksContainerRef.current.scrollBy({ left: 150, behavior: 'smooth' });
-    }
-  };
-
+  // Update active tab based on path
   useEffect(() => {
-    const currentPath = pathname.split('/')[1];
-    if (!currentPath || currentPath === 'home') {
-      const homeNavItem = navItems.find(item => item.title.toLowerCase() === 'home');
-      if (homeNavItem) {
-        setState(prev => ({ ...prev, activeNavId: homeNavItem.id }));
-      }
+    let newActiveId: number | null = null;
+    if (!currentPath || currentPath === "home") {
+      newActiveId =
+        navItems.find((item) => item.title.toLowerCase() === "home")?.id ?? null;
     } else {
-      const activeNavItem = navItems.find(item => formatTitleForUrl(item.title) === currentPath);
-      if (activeNavItem) {
-        setState(prev => ({ ...prev, activeNavId: activeNavItem.id }));
-      }
+      newActiveId =
+        navItems.find((item) => formatTitleForUrl(item.title) === currentPath)
+          ?.id ?? null;
     }
 
+    if (newActiveId !== null && newActiveId !== activeNavId) {
+      setActiveNavId(newActiveId);
+    }
     setIsActiveTabInitialized(true);
-  }, [pathname, navItems]);
+  }, [currentPath, navItems, activeNavId]);
 
   const handleClick = useCallback(
     async (id: number, title: string) => {
-      setState(prev => ({ ...prev, activeNavId: id, menuOpen: false, loading: true }));
+      setMenuOpen(false);
+      setLoading(true);
 
       try {
         const sidebarItems = await fetchSidebar(id);
-        if (title.toLowerCase() === 'home' && sidebarItems.length > 0 && sidebarItems[0].title.toLowerCase() === 'introduction') {
-          router.push(`/`);
+        let route = `/${formatTitleForUrl(title)}`;
+
+        if (
+          title.toLowerCase() === "home" &&
+          sidebarItems[0]?.title.toLowerCase() === "introduction"
+        ) {
+          route = "/";
         } else if (sidebarItems.length > 0) {
-          const firstSidebarItem = sidebarItems[0];
-          router.push(`/${formatTitleForUrl(title)}/${formatTitleForUrl(firstSidebarItem.title)}`);
-        } else {
-          router.push(`/${formatTitleForUrl(title)}`);
+          route = `/${formatTitleForUrl(title)}/${formatTitleForUrl(
+            sidebarItems[0].title
+          )}`;
         }
+
+        router.prefetch(route);
+
+        // ✅ Smooth transition
+        startTransition(() => {
+          setActiveNavId(id);
+          router.push(route);
+        });
       } finally {
-        setState(prev => ({ ...prev, loading: false }));
+        setLoading(false);
       }
     },
     [router]
   );
 
-  const toggleMenu = useCallback(() => {
-    setState(prev => ({ ...prev, menuOpen: !prev.menuOpen }));
-  }, []);
+  const toggleMenu = useCallback(() => setMenuOpen((prev) => !prev), []);
 
+  // Close menu on outside click
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (navRef.current && !navRef.current.contains(event.target as Node)) {
-        setState(prev => ({ ...prev, menuOpen: false }));
+        setMenuOpen(false);
       }
     };
-
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
-    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  if (!navItems || !navItems.length) return null;
+  const scrollLeft = () =>
+    navLinksContainerRef.current?.scrollBy({ left: -150, behavior: "smooth" });
+  const scrollRight = () =>
+    navLinksContainerRef.current?.scrollBy({ left: 150, behavior: "smooth" });
+
+  if (!navItems.length) return null;
 
   return (
     <>
-      <nav className= {navItems[0].id ===1? 'navbar navbar-noborder' : 'navbar' } ref={navRef}>
+      <nav
+        className={navItems[0].id === 1 ? "navbar navbar-noborder" : "navbar"}
+        ref={navRef}
+      >
         <button
           className="hamburger-container"
           onClick={toggleMenu}
@@ -151,21 +158,23 @@ const Navbar = ({ navItems, initialNavId }: NavbarProps) => {
         >
           <div className="hamburger">&#9776;</div>
         </button>
-        
-        {/* Left arrow for scrolling */}
-        {isOverflowing && showLeftArrow && ( // Only show left arrow when overflowing and scrolled away from the left edge
+
+        {isOverflowing && showLeftArrow && (
           <button className="scroll-arrow left-arrow" onClick={scrollLeft}>
             &lt;
           </button>
         )}
 
-        {/* Regular Horizontal Navbar */}
         <div className="nav-links-container" ref={navLinksContainerRef}>
           <ul className="nav-links">
-            {navItems.filter((item: { id: number; }) => ![1, 13, 14, 15, 23, 24, 25, 26].includes(item.id)).map(item => (
+            {filteredNavItems.map((item) => (
               <li
                 key={item.id}
-                className={isActiveTabInitialized && item.id === state.activeNavId ? 'active' : ''}
+                className={
+                  isActiveTabInitialized && item.id === activeNavId
+                    ? "active"
+                    : ""
+                }
                 onClick={() => handleClick(item.id, item.title)}
                 aria-label={`Navigate to ${item.title}`}
               >
@@ -175,21 +184,19 @@ const Navbar = ({ navItems, initialNavId }: NavbarProps) => {
           </ul>
         </div>
 
-        {/* Right arrow for scrolling */}
         {isOverflowing && (
           <button className="scroll-arrow right-arrow" onClick={scrollRight}>
             &gt;
           </button>
         )}
 
-        {/* Dropdown Menu for Smaller Screens */}
-        {state.menuOpen && (
+        {menuOpen && (
           <div className="dropdown-menu">
             <ul>
-              {navItems.filter((item: { id: number; }) => ![1, 13, 14, 15, 23, 24, 25, 26].includes(item.id)).map(item => (
+              {filteredNavItems.map((item) => (
                 <li
                   key={item.id}
-                  className={item.id === state.activeNavId ? 'active' : ''}
+                  className={item.id === activeNavId ? "active" : ""}
                   onClick={() => handleClick(item.id, item.title)}
                 >
                   {item.title}
@@ -199,10 +206,9 @@ const Navbar = ({ navItems, initialNavId }: NavbarProps) => {
           </div>
         )}
       </nav>
-      {state.loading && <Spinner />}  
+      {loading && <Spinner />}
     </>
   );
 };
 
 export default Navbar;
-
